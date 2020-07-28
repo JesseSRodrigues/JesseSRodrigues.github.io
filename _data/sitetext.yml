@@ -1,11 +1,11 @@
 header:
     title: Welcome to our Studio!
     text: It's Nice To Meet You
-    button: Tell Me More
-    buttonlink: "#services" # "#{section}" or "URL/page link"
+    button: Projetos
+    buttonlink: "#portfolio" # "#{section}" or "URL/page link"
 
 services:
-    title: "Services"
+    title: "Sobre"
     text: "Lorem ipsum"
     section: services
     list:
@@ -20,13 +20,13 @@ services:
         icon: fab fa-markdown
 
 portfolio:
-    title: "Portfolio"
+    title: "Projeto"
     text: "Lorem ipsum dolor sit amet consectetur."
     section: portfolio
     
 
 timeline:
-    title: "About" 
+    title: "Membros" 
     text: "Lorem ipsum timeline"
     section: timeline
     events:
@@ -54,7 +54,7 @@ timeline:
         image: assets/img/timeline/4.jpg
         alt: 
         align: right
-    end: "Be Part <br> of Our <br> Story!"
+    end: "Faça parte <br> da Nossa <br> Equipe!"
 
 about:
     title: "About Us"
