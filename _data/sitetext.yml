@@ -26,7 +26,7 @@ portfolio:
     
 
 timeline:
-    title: "Membros" 
+    title: "História" 
     text: "Lorem ipsum timeline"
     section: timeline
     events:
@@ -80,7 +80,7 @@ clients:
         logo: assets/img/clients/creative-market.jpg
     
 team:
-    title: "OUR AMAZING TEAM"
+    title: "Nosso Time"
     text: "Lorem ipsum dolor sit amet consectetur."
     subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
     section: team
