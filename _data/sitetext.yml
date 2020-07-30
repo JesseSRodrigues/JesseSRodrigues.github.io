@@ -166,7 +166,7 @@ contact:
     section: contact
     
 footer:
-    legal: "Privacy Policy"
+    legal: "Política de Privacidade"
     social:
       - url: https://twitter.com
         icon: "fab fa-twitter"  
