@@ -11,7 +11,7 @@ services:
     section: services
     list:
       - title: "O Programa"
-        desc: "Organizado pelo MEC, o PET - Programa de Educação Tutorial - reúne bolsistas que contam com a tutoria de docentes. Funciona segundo os princípios de ensino, pesquisa e extensão. O objetivo é uma formação completa durante a graduação. [Clique aqui](http://portal.mec.gov.br/component/tags/tag/32496) para saber mais!"
+        desc: <p align="justify"> Organizado pelo MEC, o PET - Programa de Educação Tutorial - reúne bolsistas que contam com a tutoria de docentes. Funciona segundo os princípios de ensino, pesquisa e extensão. O objetivo é uma formação completa durante a graduação. [Clique aqui](http://portal.mec.gov.br/component/tags/tag/32496) para saber mais! </p>
         icon: fas fa-graduation-cap #find more at https://fontawesome.com/icons
       - title: "Nossa História"
         desc: "O PET-Inf foi criado na PUCRS em novembro de 1991, tendo como primeiro tutor o professor Álvaro Guarda. O grupo reúne alunos da graduação de vários cursos da área de tecnologia da universidade, desenvolvendo atividade com prioridade à diversidade de conhecimentos que vão além do currículo formal. [Veja mais!](http://www.pucrs.br/politecnica/amplie-sua-formacao/programa-de-educacao-tutorial/)"
