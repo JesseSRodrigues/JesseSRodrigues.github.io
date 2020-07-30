@@ -87,7 +87,7 @@ team:
     people:
       - name: " "
       - name: "Kay"
-        role: "Designer"
+        #role: "Designer"
         text: "lorem ipsum"
         image: assets/img/team/1.jpg
         social:
