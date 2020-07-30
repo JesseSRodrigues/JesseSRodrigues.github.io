@@ -87,7 +87,7 @@ team:
     people:
       - name: " "
       - name: "Kay"
-        role: "Designer                               Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+        role: "Designer <br> Lorem ipsum"
         image: assets/img/team/1.jpg
         social:
           - url: https://twitter.com
