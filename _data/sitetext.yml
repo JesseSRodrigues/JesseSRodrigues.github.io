@@ -87,10 +87,10 @@ team:
     people:
       - name: " "
       - name: "Kay"
-        role: "
-        # Tutor
-        
-        ## Graduação em "
+        role: "Designer |
+        :---------: |
+        Lorem ipsum |
+        "
         image: assets/img/team/1.jpg
         social:
           - url: https://twitter.com
