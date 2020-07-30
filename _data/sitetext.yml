@@ -96,8 +96,7 @@ team:
             icon: fab fa-facebook-f
           - url: https://linkedin.com
             icon: fab fa-linkedin-in
-        align: left
-        
+      ""
       - name: "Kay Garland"
         role: "Lead Designer"
         image: assets/img/team/1.jpg
