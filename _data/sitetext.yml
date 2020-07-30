@@ -88,9 +88,9 @@ team:
     section: team
     people:
       - name: " "
-      - name: "Kay"
-        role: "Designer <br> Lorem ipsum"
-        image: assets/img/team/1.jpg
+      - name: "Prof. Dr. Tiago Ferreto"
+        role: "Tutor <br> Graduação em lorem ipsum"
+        image: assets/img/team/TiagoF.png
         social:
           #- url: https://twitter.com
             #icon: fab fa-twitter
