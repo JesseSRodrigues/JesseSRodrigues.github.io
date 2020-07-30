@@ -173,6 +173,7 @@ contact:
     title: "Fale Conosco"
     #text: "Lorem ipsum or call 123456789"
     section: contact
+    button: Enviar
     
 footer:
     legal: "Privacy Policy"
