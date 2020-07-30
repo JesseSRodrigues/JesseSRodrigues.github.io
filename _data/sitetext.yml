@@ -87,8 +87,10 @@ team:
     people:
       - name: " "
       - name: "Kay"
-        role: "# Tutor
-               ## Graduação em "
+        role: "
+        # Tutor
+        
+        ## Graduação em "
         image: assets/img/team/1.jpg
         social:
           - url: https://twitter.com
