@@ -6,7 +6,8 @@ header:
 
 services:
     title: "Sobre"
-    text:
+    text: " 
+    "
     section: services
     list:
       - title: "O Programa"
@@ -19,7 +20,7 @@ services:
         desc: "Os editais são abertos no início do semestre ou quando há vagas, fique à vontade para falar conosco na sessão de contato ao final da página!
 
         * Edital 2020/1 - Encerrado
-        
+
         * **Edital 2020/2 - Em Andamento**  "
         icon: fas fa-users
 
