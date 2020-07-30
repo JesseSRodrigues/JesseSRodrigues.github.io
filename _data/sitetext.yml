@@ -86,7 +86,7 @@ team:
     section: team
     tutor: 
       - name: "Kay"
-        role: "Lead Designer"
+        role: "Designer"
         image: assets/img/team/1.jpg
         social:
           - url: https://twitter.com
