@@ -87,8 +87,8 @@ team:
     people:
       - name: " "
       - name: "Kay"
-        #role: "Designer"
-        text: "lorem ipsum"
+        role: "Designer"
+        role: "lorem ipsum"
         image: assets/img/team/1.jpg
         social:
           - url: https://twitter.com
