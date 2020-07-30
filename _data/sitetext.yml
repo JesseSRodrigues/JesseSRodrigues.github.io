@@ -17,7 +17,7 @@ services:
         desc: <p align="justify">O PET-Inf foi criado na PUCRS em novembro de 1991, tendo como primeiro tutor o professor Álvaro Guarda. O grupo reúne alunos da graduação de vários cursos da área de tecnologia da universidade, desenvolvendo atividade com prioridade à diversidade de conhecimentos que vão além do currículo formal. <a href="http://www.pucrs.br/politecnica/amplie-sua-formacao/programa-de-educacao-tutorial">Saiba mais!</a></p>
         icon: fas fa-university      
       - title: "Faça Parte do Grupo!"
-        desc: <p align="justify">Os editais são abertos no início do semestre ou quando há vagas, fique à vontade para falar conosco na sessão de contato ao final da página!
+        desc: <p align="justify">Os editais são abertos no início do semestre ou quando há vagas, fique à vontade para falar conosco na sessão de contato ao final da página!</p>
 
         <ol>
 
@@ -25,9 +25,7 @@ services:
 
           <li><b>Edital 2020/2 - Em Andamento</b></li>
 
-        <ol/>
-
-        </p> 
+        <ol/> 
         icon: fas fa-users
 
 portfolio:
