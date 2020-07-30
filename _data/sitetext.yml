@@ -61,10 +61,10 @@ timeline:
         align: right
     end: "Faça Parte <br> da Nossa <br> Equipe!"
 
-about:
-    title: "About Us"
-    text: "our story"
-    section: about
+#about:
+    #title: "About Us"
+    #text: "our story"
+    #section: about
 
 clients:
     section: clients
@@ -80,15 +80,15 @@ clients:
         logo: assets/img/clients/logo-Mec-.png
     
 team:
-    title: "Nosso Time"
+    title: "Nossa Equipe"
     #text: "Lorem ipsum dolor sit amet consectetur."
     #subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
     section: team
-    tutor: 
     people:
       - name: " "
       - name: "Kay"
-        role: "Designer"
+        role: "Designer
+        lorem ipsum"
         image: assets/img/team/1.jpg
         social:
           - url: https://twitter.com
