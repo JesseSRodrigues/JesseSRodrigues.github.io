@@ -87,10 +87,7 @@ team:
     people:
       - name: " "
       - name: "Kay"
-        role: "Designer |
-        :---------: |
-        Lorem ipsum |
-        "
+        role: " **Designer** "
         image: assets/img/team/1.jpg
         social:
           - url: https://twitter.com
