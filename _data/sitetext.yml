@@ -25,7 +25,9 @@ services:
 
           <li><b>Edital 2020/2 - Em Andamento</b></li>
 
-        <ol/>  
+        <ol/>
+
+        </p> 
         icon: fas fa-users
 
 portfolio:
