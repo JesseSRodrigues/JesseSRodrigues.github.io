@@ -86,7 +86,7 @@ team:
     section: team
     tutor: 
     people:
-      -name: " "
+      - name: " "
       - name: "Kay"
         role: "Designer"
         image: assets/img/team/1.jpg
