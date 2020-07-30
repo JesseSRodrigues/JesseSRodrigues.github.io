@@ -9,6 +9,7 @@ services:
     #text: "Lorem ipsum"
     section: services
     list:
+      - title: " "
       - title: "O Programa"
         desc: "Organizado pelo MEC, o PET - Programa de Educação Tutorial - reúne bolsistas que contam com a tutoria de docentes. Funciona segundo os princípios de ensino, pesquisa e extensão. O objetivo é uma formação completa durante a graduação. [Clique aqui](http://portal.mec.gov.br/component/tags/tag/32496) para saber mais!"
         icon: fas fa-graduation-cap #find more at https://fontawesome.com/icons
@@ -27,7 +28,7 @@ portfolio:
 
 timeline:
     title: "História" 
-    text: "Aqui estão alguns projetos já realizados"
+    text: "Projetos já realizados!"
     section: timeline
     events:
       - title: "Our Humble Beginnings"
@@ -71,7 +72,7 @@ clients:
         logo: assets/img/clients/logo-PUCRS.png
       - title: "PET-MEC"
         url: http://portal.mec.gov.br/component/tags/tag/32496
-        logo: assets/img/clients/logo-MEC.png
+        logo: assets/img/clients/logo-Mec-.png
     
 team:
     title: "Nosso Time"
@@ -112,7 +113,7 @@ team:
           
 contact:
     title: "Fale Conosco"
-    text: "Lorem ipsum or call 123456789"
+    #text: "Lorem ipsum or call 123456789"
     section: contact
     
 footer:
