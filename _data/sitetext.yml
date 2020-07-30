@@ -77,9 +77,6 @@ clients:
       - title: "PUCRS"
         url: http://www.pucrs.br/
         logo: assets/img/clients/logo-PUCRS.png
-      - title: Escola Politécnica - PUCRS
-        url: http://www.pucrs.br/politecnica/
-        logo: assets/img/clients/escola-politec1.png
       - title: "PET-MEC"
         url: http://portal.mec.gov.br/component/tags/tag/32496
         logo: assets/img/clients/logo-Mec-.png
