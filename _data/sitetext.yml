@@ -86,6 +86,7 @@ team:
     section: team
     tutor: 
     people:
+      -name: " "
       - name: "Kay"
         role: "Designer"
         image: assets/img/team/1.jpg
@@ -96,8 +97,7 @@ team:
             icon: fab fa-facebook-f
           - url: https://linkedin.com
             icon: fab fa-linkedin-in
-      - text: "
-      "
+      - name: " "
       - name: "Kay Garland"
         role: "Lead Designer"
         image: assets/img/team/1.jpg
