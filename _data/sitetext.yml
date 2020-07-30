@@ -1,33 +1,33 @@
 header:
-    title: Welcome to our Studio!
-    text: It's Nice To Meet You
+    title: Site Oficial do PET-Informática/PUCRS!
+    #text: It's Nice To Meet You
     button: Projetos
     buttonlink: "#portfolio" # "#{section}" or "URL/page link"
 
 services:
     title: "Sobre"
-    text: "Lorem ipsum"
+    #text: "Lorem ipsum"
     section: services
     list:
-      - title: "E-Commerce"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
-      - title: "Responsive Design"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-laptop       
-      - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
-        desc: "Your description here, full **Markdown** support"
-        icon: fab fa-markdown
+      - title: "O Programa"
+        desc: "Organizado pelo MEC, o PET - Programa de Educação Tutorial - reúne bolsistas que contam com a tutoria de docentes. Funciona segundo os princípios de ensino, pesquisa e extensão. O objetivo é uma formação completa durante a graduação. [Clique aqui](http://portal.mec.gov.br/component/tags/tag/32496) para saber mais!"
+        icon: fas fa-graduation-cap #find more at https://fontawesome.com/icons
+      - title: "O PET-Inf"
+        desc: "O PET-Inf foi criado na PUCRS em novembro de 1991, tendo como primeiro tutor o professor Álvaro Guarda. O grupo reúne alunos da graduação de vários cursos da área de tecnologia da universidade, desenvolvendo atividade com prioridade à diversidade de conhecimentos que vão além do currículo formal. [Veja mais!](http://www.pucrs.br/politecnica/amplie-sua-formacao/programa-de-educacao-tutorial/)"
+        icon: fas fa-university      
+      #- title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
+      #  desc: "Your description here, full **Markdown** support"
+      #  icon: fab fa-markdown
 
 portfolio:
     title: "Projetos"
-    text: "Lorem ipsum dolor sit amet consectetur."
+    text: "Veja os trabalhos que estão sendo desenvolvidos pelo grupo!"
     section: portfolio
     
 
 timeline:
     title: "História" 
-    text: "Lorem ipsum timeline"
+    text: "Aqui estão alguns projetos já realizados"
     section: timeline
     events:
       - title: "Our Humble Beginnings"
@@ -66,23 +66,17 @@ clients:
     max-height: 100px
     horizontal-scrolling: "" #"yes/no"
     list:
-      - title: "envato"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/envato.jpg
-      - title: "designmodo"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/designmodo.jpg
-      - title: "themeforest"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/themeforest.jpg
-      - title: "Creative Market"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/creative-market.jpg
+      - title: "PUCRS"
+        url: http://www.pucrs.br/
+        logo: assets/img/clients/logo-PUCRS.png
+      - title: "PET-MEC"
+        url: http://portal.mec.gov.br/component/tags/tag/32496
+        logo: assets/img/clients/logo-MEC.png
     
 team:
     title: "Nosso Time"
-    text: "Lorem ipsum dolor sit amet consectetur."
-    subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
+    #text: "Lorem ipsum dolor sit amet consectetur."
+    #subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
     section: team
     people:
       - name: "Kay Garland"
