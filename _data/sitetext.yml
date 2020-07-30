@@ -99,8 +99,8 @@ team:
           - url: https://linkedin.com
             icon: fab fa-linkedin-in
       - name: " "
-      - name: "Kay Garland"
-        role: "Lead Designer"
+      - name: "Daniela Rigoli"
+        role: "Ciência da Computação"
         image: assets/img/team/1.jpg
         social:
           - url: https://twitter.com
@@ -109,8 +109,8 @@ team:
             icon: fab fa-facebook-f
           - url: https://linkedin.com
             icon: fab fa-linkedin-in
-      - name: "Kay Garland"
-        role: "Lead Designer"
+      - name: "Felipe Ferro"
+        role: "Ciência da Computação"
         image: assets/img/team/1.jpg
         social:
           - url: https://twitter.com
@@ -119,8 +119,8 @@ team:
             icon: fab fa-facebook-f
           - url: https://linkedin.com
             icon: fab fa-linkedin-in
-      - name: "Kay Garland"
-        role: "Lead Designer"
+      - name: "Jessé Rodrigues"
+        role: "Engenharia da Computação"
         image: assets/img/team/1.jpg
         social:
           - url: https://twitter.com
@@ -129,8 +129,8 @@ team:
             icon: fab fa-facebook-f
           - url: https://linkedin.com
             icon: fab fa-linkedin-in
-      - name: "Kay Garland"
-        role: "Lead Designer"
+      - name: "Lucas Buffet"
+        role: "Engenharia de Software"
         image: assets/img/team/1.jpg
         social:
           - url: https://twitter.com
@@ -139,8 +139,8 @@ team:
             icon: fab fa-facebook-f
           - url: https://linkedin.com
             icon: fab fa-linkedin-in
-      - name: "Larry Parker"
-        role: "Lead Marketer"
+      - name: "Pedro Rogoski"
+        role: "Engenharia de Software"
         image: assets/img/team/2.jpg
         social:
           - url: https://twitter.com
@@ -149,8 +149,8 @@ team:
             icon: fab fa-facebook-f
           - url: https://linkedin.com
             icon: fab fa-linkedin-in
-      - name: "Diana Perterson"
-        role: "Lead Developer"
+      - name: "Waldyr Schneider"
+        role: "Ciência da Computação"
         image: assets/img/team/3.jpg
         social:
           - url: https://twitter.com
