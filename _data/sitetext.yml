@@ -85,6 +85,7 @@ team:
     #subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
     section: team
     tutor: 
+    people:
       - name: "Kay"
         role: "Designer"
         image: assets/img/team/1.jpg
@@ -95,19 +96,7 @@ team:
             icon: fab fa-facebook-f
           - url: https://linkedin.com
             icon: fab fa-linkedin-in
-        align: right
-      
-    people:
-      - name: "Kay Garland"
-        role: "Lead Designer"
-        image: assets/img/team/1.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
+        align: left
       - name: "Kay Garland"
         role: "Lead Designer"
         image: assets/img/team/1.jpg
