@@ -18,14 +18,14 @@ services:
         icon: fas fa-university      
       - title: "Faça Parte do Grupo!"
         desc: <p align="justify">Os editais são abertos no início do semestre ou quando há vagas, fique à vontade para falar conosco na sessão de contato ao final da página!</p>
+            
+            <ul>
 
-        <ol>
+                <li>Edital 2020/1 - Encerrado</li>
 
-          <li>Edital 2020/1 - Encerrado</li>
+                <li><b>Edital 2020/2 - Em Andamento</b></li>
 
-          <li><b>Edital 2020/2 - Em Andamento</b></li>
-
-        <ol/> 
+            <ul/> 
         icon: fas fa-users
 
 portfolio:
