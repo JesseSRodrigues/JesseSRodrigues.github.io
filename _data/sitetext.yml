@@ -87,8 +87,7 @@ team:
     people:
       - name: " "
       - name: "Kay"
-        role: "Designer"
-        role: "lorem ipsum"
+        role: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
         image: assets/img/team/1.jpg
         social:
           - url: https://twitter.com
