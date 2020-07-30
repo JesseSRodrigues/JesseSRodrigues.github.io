@@ -6,8 +6,7 @@ header:
 
 services:
     title: "Sobre"
-    text: " 
-    "
+    text: " "
     section: services
     list:
       - title: "O Programa"
@@ -33,7 +32,6 @@ portfolio:
     text: "Veja os trabalhos que estão sendo desenvolvidos pelo grupo!"
     section: portfolio
     
-
 timeline:
     title: "História" 
     text: "Projetos já realizados!"
@@ -94,8 +92,8 @@ team:
         role: "Designer <br> Lorem ipsum"
         image: assets/img/team/1.jpg
         social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
+          #- url: https://twitter.com
+            #icon: fab fa-twitter
           - url: https://facebook.com
             icon: fab fa-facebook-f
           - url: https://linkedin.com
@@ -166,7 +164,6 @@ contact:
     title: "Fale Conosco"
     #text: "Lorem ipsum or call 123456789"
     section: contact
-    button: Enviar
     
 footer:
     legal: "Privacy Policy"
