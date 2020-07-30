@@ -87,7 +87,8 @@ team:
     people:
       - name: " "
       - name: "Kay"
-        role: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
+        role: "# Tutor
+               ## Graduação em "
         image: assets/img/team/1.jpg
         social:
           - url: https://twitter.com
