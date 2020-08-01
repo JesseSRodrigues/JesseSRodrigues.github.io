@@ -1,18 +1,27 @@
 ---
-title: Project Threads
-subtitle: subtitle lorem ipsum dolor sit amet consectetur.
-image: https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-agency/master/src/assets/img/portfolio/01-full.jpg
-alt: Shirts on a hanger
+title: BioView
+subtitle: Este projeto é uma iniciativa de Ciência Cidadã! A ideia principal é desenvolver um aplicativo que conecte as pessoas com a natureza e crie conscientização sobre a biodiversidade existente no campus da universidade.
+image: https://raw.githubusercontent.com/JesseSRodrigues/JesseSRodrigues.github.io/master/assets/img/log%20v0.1.png
+alt:
 
 caption:
-  title: Threads
-  subtitle: Illustration
+  title: BioView
+  subtitle: Aplicação
   thumbnail: https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-agency/master/src/assets/img/portfolio/01-thumbnail.jpg
----
-Use this area to describe your project. **Markdown** supported. This entry (project1.md) uses links for the image sources. All other projects in the portfolio use local images. Both work just fine! Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+
+text: 
+"O Campus da PUCRS é conhecido por sua arquitetura moderna e diversidade biológica, gerando à comunidade uma conexão constante entre aspectos tecnológicos e naturais. 
+
+Pensando nesses conceitos, o BioView é uma aplicação que sugere aos seus usuários a documentação deste meio natural de forma que, além de informar e conectar as pessoas à natureza que está inserida, leva à conscientização sobre o impacto que temos sobre nosso meio ambiente.
+
+Baseado na  
 
 {:.list-inline}
 - Date: January 2017
 - Client: Threads
-- Category: Illustration
+- Category: Illustration"
+
+image: https://raw.githubusercontent.com/JesseSRodrigues/JesseSRodrigues.github.io/master/assets/img/log%20v0.1.png
+
+text: "teste"
 
