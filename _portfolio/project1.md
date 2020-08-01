@@ -8,8 +8,8 @@ caption:
   subtitle: Aplicação
   thumbnail: https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-agency/master/src/assets/img/portfolio/01-thumbnail.jpg
 
-text: <p align="justify">O Campus da PUCRS é conhecido por sua arquitetura moderna e diversidade biológica, gerando à comunidade uma conexão constante entre aspectos tecnológicos e naturais.
-  
-      Pensando nesses conceitos, o BioView é uma aplicação que sugere aos seus usuários a documentação deste meio natural de forma que, além de informar e conectar as pessoas à natureza que está inserida, leva à conscientização sobre o impacto que temos sobre nosso meio ambiente.</p>
+text: <p align="justify">O Campus da PUCRS é conhecido por sua arquitetura moderna e diversidade biológica, gerando à comunidade uma conexão constante entre aspectos tecnológicos e naturais. Pensando nesses conceitos, o BioView é uma aplicação que sugere aos seus usuários a documentação deste meio natural de forma que, além de informar e conectar as pessoas à natureza que está inserida, leva à conscientização sobre o impacto que temos sobre nosso meio ambiente.</p>
+
+      <p align="justify">Funcionamento:: </p>
 
 ---
