@@ -16,8 +16,4 @@ imag: https://raw.githubusercontent.com/JesseSRodrigues/JesseSRodrigues.github.i
 
       teste
 
-
-
-
-
 ---
