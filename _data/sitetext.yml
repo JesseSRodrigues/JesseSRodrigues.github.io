@@ -121,7 +121,7 @@ team:
             icon: fab fa-linkedin-in
       - name: "Jessé Rodrigues"
         role: "Engenharia da Computação"
-        image: assets/img/team/1.jpg
+        image: assets/img/team/JesseR.jpg
         social:
           - url: https://twitter.com
             icon: fab fa-twitter
