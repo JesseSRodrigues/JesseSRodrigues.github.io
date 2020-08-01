@@ -1,11 +1,11 @@
 ---
-title: EnadeApp
+title: ENADEApp
 subtitle: Lorem ipsum dolor sit amet consectetur.
 image: https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-agency/master/src/assets/img/portfolio/03-full.jpg
 alt: 
 
 caption:
-  title: EnadeApp
+  title: ENADEApp
   subtitle: Aplicação
   thumbnail: https://raw.githubusercontent.com/JesseSRodrigues/JesseSRodrigues.github.io/master/assets/img/capa-enadeapp.png
 ---
