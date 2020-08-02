@@ -1,6 +1,6 @@
 header:
-    title: 
-    text: 
+    title: <p> </p>
+    text: <p> </p>
     #button: Projetos
     #buttonlink: "#portfolio" # "#{section}" or "URL/page link"
 
