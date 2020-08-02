@@ -29,7 +29,7 @@ services:
 
 portfolio:
     title: "Projetos"
-    text: "Veja os trabalhos que estão sendo desenvolvidos pelo grupo!"
+    text: "Veja os trabalhos em desenvolvimento!"
     section: portfolio
     
 timeline:
