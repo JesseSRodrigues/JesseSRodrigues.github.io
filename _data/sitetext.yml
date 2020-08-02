@@ -1,6 +1,6 @@
 header:
-    title: " "
-    #text: It's Nice To Meet You
+    title: 
+    text: 
     #button: Projetos
     #buttonlink: "#portfolio" # "#{section}" or "URL/page link"
 
