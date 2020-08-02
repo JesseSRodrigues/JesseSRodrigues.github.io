@@ -89,7 +89,7 @@ team:
     people:
       - name: " "
       - name: "Prof. Dr. Tiago Ferreto"
-        role: "Tutor <br> Graduação em lorem ipsum"
+        role: "Ph.D. em Ciência da Computação <br> <b>Tutor</b>"
         image: assets/img/team/TiagoF.png
         social:
           #- url: https://twitter.com
@@ -100,7 +100,7 @@ team:
             icon: fab fa-linkedin-in
       - name: " "
       - name: "Daniela Rigoli"
-        role: "Ciência da Computação"
+        role: "Estudante de Ciência da Computação <br> <b>Projeto: BioView</b>"
         image: assets/img/team/1.jpg
         social:
           - url: https://twitter.com
@@ -110,7 +110,7 @@ team:
           - url: https://linkedin.com
             icon: fab fa-linkedin-in
       - name: "Felipe Ferro"
-        role: "Ciência da Computação"
+        role: "Estudante de Ciência da Computação <br> <b>Projeto: ENADEApp</b>"
         image: assets/img/team/1.jpg
         social:
           - url: https://twitter.com
@@ -120,7 +120,7 @@ team:
           - url: https://linkedin.com
             icon: fab fa-linkedin-in
       - name: "Jessé Rodrigues"
-        role: "Engenharia da Computação"
+        role: "Estudante de Engenharia da Computação <br> <b>Projeto: Site PET-Inf</b>"
         image: assets/img/team/JesseR.jpg
         social:
           - url: https://twitter.com
@@ -130,7 +130,7 @@ team:
           - url: https://linkedin.com
             icon: fab fa-linkedin-in
       - name: "Lucas Buffet"
-        role: "Engenharia de Software"
+        role: "Estudante de Engenharia de Software <br> <b>Projeto: ENADEApp</b>"
         image: assets/img/team/1.jpg
         social:
           - url: https://twitter.com
@@ -140,7 +140,7 @@ team:
           - url: https://linkedin.com
             icon: fab fa-linkedin-in
       - name: "Pedro Rogoski"
-        role: "Engenharia de Software"
+        role: "Estudante de Engenharia de Software <br> <b>Projeto: BioView</b>"
         image: assets/img/team/2.jpg
         social:
           - url: https://twitter.com
@@ -150,7 +150,7 @@ team:
           - url: https://linkedin.com
             icon: fab fa-linkedin-in
       - name: "Waldyr Schneider"
-        role: "Ciência da Computação"
+        role: "Estudante de Ciência da Computação <br> <b>Projeto: Site PET-Inf</b>"
         image: assets/img/team/3.jpg
         social:
           - url: https://twitter.com
