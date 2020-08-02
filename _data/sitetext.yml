@@ -1,6 +1,6 @@
 header:
-    title: <p> </p>
-    text: <p> </p>
+    title:
+    text: Bem-Vindos ao Novo Site Oficial!
     #button: Projetos
     #buttonlink: "#portfolio" # "#{section}" or "URL/page link"
 
