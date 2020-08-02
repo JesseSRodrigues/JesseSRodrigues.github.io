@@ -1,8 +1,8 @@
 header:
-    title: Site Oficial do PET-Informática/PUCRS!
+    #title: Site Oficial do PET-Informática/PUCRS!
     #text: It's Nice To Meet You
-    button: Projetos
-    buttonlink: "#portfolio" # "#{section}" or "URL/page link"
+    #button: Projetos
+    #buttonlink: "#portfolio" # "#{section}" or "URL/page link"
 
 services:
     title: "Sobre"
