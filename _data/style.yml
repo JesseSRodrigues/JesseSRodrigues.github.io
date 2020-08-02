@@ -5,6 +5,4 @@ black: "#000"
 
 #Image Customization
 header-image: "../img/biblioteca-header3.jpg"
-  width: 100%
-  height: 100%
 contact-image: "../img/circuito.jpg"
