@@ -37,15 +37,33 @@ timeline:
     text: "Projetos já realizados!"
     section: timeline
     events:
-      - title: "Our Humble Beginnings"
-        year: "2009-2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      - title: "Criação do PET-Informática"
+        year: "Novembro 1991"
+        desc: "Ao final de 1991, o PET-Inf é criado na PUCRS, tendo como primeiro tutor o professor Álvaro Guarda."
         image: assets/img/timeline/1.jpg
         alt: 
         #align: left
-      - title: "An Agency is Born"
-        year: "March 2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      - title: "Tutores do PET-Inf"
+        year: "1991 - 2020"
+        desc: "<ul>
+
+                <li>Prof. Dr. Álvaro Guarda: 1991-1993</li>
+
+                <li>Prof. Dr. Afonso Orth: 1993-1996</li>
+
+                <li>Prof. Dr. Fabiano Hessel: 2001-2002</li>
+
+                <li>Prof. Dr. Luís Lamb: 2002</li>
+
+                <li>Prof. Dr. Lúcia Giraffa: 2002-2005</li>
+
+                <li>Prof. Dr. Alfio Martini: 2005-2010</li>
+
+                <li>Prof. Dr. Celso Maciel: 2010-2011 | 1996-2000</li>
+
+                <li>Prof. Dr. Tiago Ferreto: 2011 - Atual</li>
+
+            <ul/> "
         image: assets/img/timeline/2.jpg
         alt: 
         align: right
