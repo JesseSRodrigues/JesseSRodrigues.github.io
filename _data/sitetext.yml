@@ -39,7 +39,7 @@ timeline:
     events:
       - title: "Criação do PET-Informática"
         year: "Novembro 1991"
-        desc: "Ao final de 1991, o PET-Inf é criado na PUCRS, tendo como primeiro tutor o professor Álvaro Guarda."
+        desc: "O PET-Inf foi criado na PUCRS ao final de 1991, tendo como primeiro tutor o professor Álvaro Guarda."
         image: assets/img/timeline/1.jpg
         alt: 
         #align: left
