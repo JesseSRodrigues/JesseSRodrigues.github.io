@@ -16,7 +16,10 @@
 			{% else %}
 			<li>
       {% endif %}      
-              
+              <div class="timeline-image">
+                <img class="rounded-circle img-fluid" src="{{ event.image }}" alt="{{ event.alt | default: ""}}">
+              </div>
+
               <div class="timeline-panel2">
                 <div class="timeline-heading">
                   <h4>{{ event.year2 | markdownify }}</h4>
@@ -24,10 +27,9 @@
                 </div>
                 <div class="timeline-body">
                   <div class="text-muted">{{ event.desc2 | markdownify }}</div>
-
-              <div class="timeline-image">
-                <img class="rounded-circle img-fluid" src="{{ event.image }}" alt="{{ event.alt | default: ""}}">
+                </div>
               </div>
+
               <div class="timeline-panel">
                 <div class="timeline-heading">
                   <h4>{{ event.year | markdownify }}</h4>
@@ -36,10 +38,7 @@
                 <div class="timeline-body">
                   <div class="text-muted">{{ event.desc | markdownify }}</div>
                 </div>
-              </div>
-
-                </div>
-              </div>
+              </div>               
             </li>
 		  {% endfor %}	
             
