@@ -113,12 +113,6 @@
         padding: 0 20px 20px 30px;
         text-align: right;
       }
-      .timeline-panel2 {
-        float: right;
-        width: 41%;
-        padding: 0 30px 20px 20px;
-        text-align: left;
-      }
        .timeline-image {
         left: 50%;
         width: 100px;
@@ -134,12 +128,7 @@
         float: right;
         padding: 0 30px 20px 20px;
         text-align: left;
-        } > .timeline-panel2 {
-          float: left;
-          width: 41%;
-          padding: 0 20px 20px 30px;
-          text-align: right;
-        }
+      }
     }
   }
 }
@@ -148,9 +137,6 @@
     > li {
       min-height: 150px;
       .timeline-panel {
-        padding: 0 20px 20px;
-      }
-      .timeline-panel2 {
         padding: 0 20px 20px;
       }
       .timeline-image {
@@ -165,8 +151,6 @@
       }
       &.timeline-inverted > .timeline-panel {
         padding: 0 20px 20px;
-      } > .timeline-panel2 {
-        padding: 0 20px 20px;
       }
     }
   }
@@ -176,9 +160,6 @@
     > li {
       min-height: 170px;
       .timeline-panel {
-        padding: 0 20px 20px 100px;
-      }
-      .timeline-panel2 {
         padding: 0 20px 20px 100px;
       }
       .timeline-image {
@@ -191,8 +172,6 @@
       }
       &.timeline-inverted > .timeline-panel {
         padding: 0 100px 20px 20px;
-      } > .timeline-panel2 {
-        padding: 0 20px 20px 100px;
       }
     }
   }
