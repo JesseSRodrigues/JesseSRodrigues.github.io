@@ -28,6 +28,15 @@
                   <div class="text-muted">{{ event.desc | markdownify }}</div>
                 </div>
               </div>
+              <div class="timeline-panel2">
+                <div class="timeline-heading">
+                  <h4>{{ event.year2 | markdownify }}</h4>
+                  <h4 class="subheading">{{ event.title2 }}</h4>
+                </div>
+                <div class="timeline-body">
+                  <div class="text-muted">{{ event.desc2 | markdownify }}</div>
+                </div>
+              </div>
             </li>
 		  {% endfor %}	
             
