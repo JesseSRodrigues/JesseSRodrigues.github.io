@@ -16,15 +16,30 @@ text: <p align="justify">O Exame Nacional de Desempenho dos Estudantes (Enade) �
       <p align="justify">O ENADEApp é um aplicativo similar aos oferecidos como forma de estudo para o ENEM, ou seja, além de manter as principais informações a respeito do simulado (datas, horário, locais, etc), o foco principal da aplicação é um banco de questões de edições passadas das provas.</p>
 
       <p align="justify">Os estudantes podem utilizar o aplicativo como uma competição de perguntas e respostas, portanto, o indivíduo que responder corretamente as questões propostas irá somar pontos para ser adicionado ao ranking dos utilizadores do ENADEApp, questões estas que serão divididas em diferentes áreas do conhecimento e cursos.</p>
+
+      <p align="justify">O ENADEApp está em fase de desenvolvimento para Android e IOS com as ferramentas/linguagens a seguir:</p>
+
+        <ul>
+
+            <li>Unity</li>
+
+            <li>SQL</li>
+
+            <li>C#</li>
+
+            <li>Figma</li>
+
+        <ul/>
+
+      <p align="justify">Integrantes do PET-Inf no projeto:</p>
+
+        <ul>
+
+          <li>Felipe Ferro</li>
+
+          <li>Lucas Buffet</li>
+
+        <ul/>
+
 ---
-O ENADEApp está em fase de desenvolvimento para Android e IOS com as ferramentas/linguagens a seguir:
 
-  - Untiy
-  - SQL
-  - C#
-  - Figma
-
-Integrantes do PET-Inf no projeto:
-
-  - Felipe Ferro
-  - Lucas Buffet
