@@ -21,13 +21,13 @@ text: <p align="justify">O Exame Nacional de Desempenho dos Estudantes (Enade) Ã
 
       <ul>
 
-            <li>Unity</li>
+          <li>Unity</li>
 
-            <li>SQL</li>
+          <li>SQL</li>
 
-            <li>C#</li>
+          <li>C#</li>
 
-            <li>Figma</li>
+          <li>Figma</li>
 
       <ul/>
 
@@ -35,9 +35,9 @@ text: <p align="justify">O Exame Nacional de Desempenho dos Estudantes (Enade) Ã
 
       <ul>
 
-            <li>Felipe Ferro</li>
+          <li>Felipe Ferro</li>
 
-            <li>Lucas Buffet</li>
+          <li>Lucas Buffet</li>
 
       <ul/>
 
