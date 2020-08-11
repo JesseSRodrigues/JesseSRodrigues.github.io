@@ -1,6 +1,6 @@
 ---
 title: ENADEApp
-subtitle: Aplicação que deve auxiliar os estudantes na preparação do ENADE.
+subtitle: Aplicação para auxiliar estudantes na preparação do ENADE.
 image: https://raw.githubusercontent.com/JesseSRodrigues/JesseSRodrigues.github.io/master/assets/img/ENADE.png
 alt: 
 
