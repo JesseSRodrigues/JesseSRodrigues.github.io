@@ -1,6 +1,6 @@
 ---
 title: ENADEApp
-subtitle: Lorem ipsum dolor sit amet consectetur.
+subtitle: Aplicação que deve auxiliar os estudantes na preparação do ENADE.
 image: https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-agency/master/src/assets/img/portfolio/03-full.jpg
 alt: 
 
