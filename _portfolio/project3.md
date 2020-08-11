@@ -33,13 +33,13 @@ text: <p align="justify">O Exame Nacional de Desempenho dos Estudantes (Enade) Ã
 
       <p align="justify">Integrantes do PET-Inf no projeto:</p>
 
-        <ul>
+       # <ul>
 
-          <li>Felipe Ferro</li>
+        #  <li>Felipe Ferro</li>
 
-          <li>Lucas Buffet</li>
+         # <li>Lucas Buffet</li>
 
-        <ul/>
+       # <ul/>
 
 ---
 
