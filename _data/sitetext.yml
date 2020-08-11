@@ -24,7 +24,7 @@ services:
 
                 <li><b>Edital 2020/2 - Em Andamento</b></li>
 
-            <ul/> 
+            </ul> 
         icon: fas fa-users
 
 portfolio:
@@ -63,7 +63,7 @@ timeline:
 
                 <li>Prof. Dr. Tiago Ferreto: 2011 - Atual</li>
 
-            <ul/> "
+            </ul> "
         image: assets/img/timeline/2.jpg
         alt: 
         align: right

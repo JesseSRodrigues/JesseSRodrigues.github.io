@@ -19,27 +19,27 @@ text: <p align="justify">O Exame Nacional de Desempenho dos Estudantes (Enade) √
 
       <p align="justify">O ENADEApp est√° em fase de desenvolvimento para Android e IOS com as ferramentas/linguagens a seguir:</p>
 
-        <ul>
+      <ul align="left">
+      
+          <li>Unity</li>
 
-            <li>Unity</li>
+          <li>SQL</li>
 
-            <li>SQL</li>
+          <li>C#</li>
 
-            <li>C#</li>
+          <li>Figma</li>
 
-            <li>Figma</li>
+      </ul>
 
-        <ul/>
+      <p>Integrantes do PET-Inf no projeto:</p>
 
-      <p align="justify">Integrantes do PET-Inf no projeto:</p>
+      <ul>
 
-       # <ul>
+        <li>Felipe Ferro</li>
 
-        #  <li>Felipe Ferro</li>
+        <li>Lucas Buffet</li>
 
-         # <li>Lucas Buffet</li>
-
-       # <ul/>
+      </ul>
 
 ---
 
