@@ -41,5 +41,6 @@ text: <p align="justify">O Exame Nacional de Desempenho dos Estudantes (Enade) �
 
       </ul>
 
+      <p align="right">Última atualização&#58 11/08/2020</p>
 ---
 

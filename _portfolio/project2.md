@@ -1,18 +1,45 @@
 ---
 title: Site PET-Inf
-subtitle: Lorem ipsum dolor sit amet consectetur.
-image: https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-agency/master/src/assets/img/portfolio/02-full.jpg
+subtitle: Novo site de divulgação dos projetos!
+image: 
 alt:
 
 caption:
   title: Site PET-Inf
   subtitle: Novo Site Oficial
   thumbnail: https://raw.githubusercontent.com/JesseSRodrigues/JesseSRodrigues.github.io/master/assets/img/capa-site.png
+
+text: <p align="justify">Como parte do projeto de divulgação do PET-Informática, a criação do novo site também é um trabalho que envolve os integrantes do grupo, pois trabalha diversas ferramentas essenciais em diferentes profissões na área de tecnologia.</p>
+
+      <p align="justify">O projeto, que é atualizado constantemente, é hospedado pelo GitHub Pages, uma plataforma conhecida por permitir a montagem gratuita da página de um repositório público do GitHub. Além disso, o código do site foi modificado com base no template disponibilizado por <<<, ou seja, parte do objetivo deste projeto é a conexão e o compartilhamento de informações entre usuários da plataforma GitHub, que é o principal ambiente em que se encontram os novos trabalhos do PET-Inf.</p>
+      
+      <p align="justify">Principais ferramentas/linguagens usadas na construção do site:</p>
+      
+      <ul align="left">
+
+          <li>GitHub</li>
+
+          <li>GitHub Pages</li>
+
+          <li>Jekyll</li>
+
+          <li>Markdown</li>
+
+          <li>HTML</p>
+
+          <li>CSS</p>
+
+      </ul>
+
+      <p align="justify">Integrantes do PET-Inf no projeto:</p>
+
+      <ul align="left">
+
+        <li>Jessé Rodrigues</li>
+
+        <li>Waldyr Schneider</li>
+
+      </ul>
+
+      <p align="right">Última atualização&#58 12/08/2020</p>
 ---
-Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!
-
-{:.list-inline}
-- Date: January 2017
-- Client: Explore
-- Category: Graphic Design
-
