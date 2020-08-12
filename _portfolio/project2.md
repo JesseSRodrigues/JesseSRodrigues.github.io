@@ -1,6 +1,6 @@
 ---
 title: Site PET-Inf
-subtitle: Novo site de divulgação dos projetos!
+subtitle: Novo site de divulgação dos projetos.
 image: https://raw.githubusercontent.com/JesseSRodrigues/JesseSRodrigues.github.io/master/assets/img/Tela_Site.jpg
 alt:
 
