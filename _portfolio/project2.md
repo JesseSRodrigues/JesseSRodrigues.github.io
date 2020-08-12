@@ -11,7 +11,7 @@ caption:
 
 text: <p align="justify">Como parte do projeto de divulgação do PET-Informática, a criação do novo site também é um trabalho que envolve os integrantes do grupo, pois trabalha diversas ferramentas essenciais em diferentes profissões na área de tecnologia.</p>
 
-      <p align="justify">O projeto, que é atualizado constantemente, é hospedado pelo GitHub Pages, uma plataforma conhecida por permitir a montagem gratuita da página de um repositório público do GitHub. Além disso, o código do site foi modificado com base no template disponibilizado por <<<, ou seja, parte do objetivo deste projeto é a conexão e o compartilhamento de informações entre usuários da plataforma GitHub, que é o principal ambiente em que se encontram os novos trabalhos do PET-Inf.</p>
+      <p align="justify">O projeto, que é atualizado constantemente, é hospedado pelo GitHub Pages, uma plataforma conhecida por permitir a montagem gratuita da página de um repositório público do GitHub. O código do site foi modificado com base no template disponibilizado por <a href="https://github.com/raviriley/agency-jekyll-theme" target="_blank"><b>raviriley</b></a>, ou seja, parte do objetivo deste projeto é a conexão e o compartilhamento de informações entre usuários da plataforma GitHub, que é o principal ambiente em que se encontram os novos trabalhos do PET-Inf.</p>
       
       <p align="justify">Principais ferramentas/linguagens usadas na construção do site:</p>
       
@@ -25,9 +25,9 @@ text: <p align="justify">Como parte do projeto de divulgação do PET-Informáti
 
           <li>Markdown</li>
 
-          <li>HTML</p>
+          <li>HTML</li>
 
-          <li>CSS</p>
+          <li>CSS</li>
 
       </ul>
 
