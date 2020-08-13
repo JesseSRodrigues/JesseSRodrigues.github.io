@@ -1,4 +1,7 @@
 nav:
+   - title: "Notícias"
+    section: noticias
+
   - title: "Sobre"
     section: services
 

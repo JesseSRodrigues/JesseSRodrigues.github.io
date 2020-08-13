@@ -4,6 +4,11 @@ header:
     #button: Projetos
     #buttonlink: "#portfolio" # "#{section}" or "URL/page link"
 
+portfolio:
+    title: "Notícias"
+    text: "Novidades do PET-Inf!"
+    section: noticias
+
 services:
     title: "Sobre"
     text: " "
@@ -89,9 +94,21 @@ timeline:
 clients:
     section: clients
     max-height: 100px
-    horizontal-scrolling: "" #"yes/no"
+    horizontal-scrolling: "yes" #"yes/no"
     list:
       - title:
+      - title: "PUCRS"
+        url: http://www.pucrs.br/
+        logo: assets/img/clients/logo-PUCRS.png
+      - title: "PET-MEC"
+        url: http://portal.mec.gov.br/component/tags/tag/32496
+        logo: assets/img/clients/logo-Mec-.png
+      - title: "PUCRS"
+        url: http://www.pucrs.br/
+        logo: assets/img/clients/logo-PUCRS.png
+      - title: "PET-MEC"
+        url: http://portal.mec.gov.br/component/tags/tag/32496
+        logo: assets/img/clients/logo-Mec-.png
       - title: "PUCRS"
         url: http://www.pucrs.br/
         logo: assets/img/clients/logo-PUCRS.png
