@@ -4,11 +4,6 @@ header:
     #button: Projetos
     #buttonlink: "#portfolio" # "#{section}" or "URL/page link"
 
-portfolio:
-    title: "Notícias"
-    text: "Novidades do PET-Inf!"
-    section: noticias
-
 services:
     title: "Sobre"
     text: " "
@@ -219,7 +214,6 @@ team:
             icon: fab fa-github
           - url: https://linkedin.com
             icon: fab fa-linkedin-in
-      
           
 contact:
     title: "Fale Conosco"

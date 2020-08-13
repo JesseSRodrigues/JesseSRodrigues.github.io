@@ -15,22 +15,37 @@
 			<li class="timeline-inverted">
 			{% else %}
 			<li>
-      {% endif %}      
-              <div class="timeline-image">
-                <img class="rounded-circle img-fluid" src="{{ event.image }}" alt="{{ event.alt | default: ""}}">
-              </div>
-              <div class="timeline-panel">
-                <div class="timeline-heading">
-                  <h4>{{ event.year | markdownify }}</h4>
-                  <h4 class="subheading">{{ event.title }}</h4>
-                </div>
-                <div class="timeline-body">
-                  <div class="text-muted">{{ event.desc | markdownify }}</div>
-                </div>
-              </div>               
-            </li>
-		  {% endfor %}	
-            
+      {% endif %} 
+
+                {% for project in site.noticias %}
+                 <!--<div class="col-md-4 col-sm-6 portfolio-item"> -->
+                  <div class="timeline-image">
+                    <a class="noticias-link" data-toggle="modal" href="#p{{ forloop.index }}">
+                     <div class="noticias-hover">
+                        <div class="noticias-hover-content">
+                          <i class="{{ site.data.style.portfolio-icon | default: "fas fa-plus fa-3x" }}"></i>
+                        </div>
+                      </div>
+                      <!--<img class="img-fluid" src="{{ project.caption.thumbnail }}" alt="">-->
+                      <img class="rounded-circle img-fluid" src="{{ event.image }}" alt="{{ event.alt | default: ""}}">
+                    </a>
+                    <div class="noticias-caption">
+                      <!--<h4>{{ project.caption.title }}</h4>
+                      <p class="text-muted">{{ project.caption.subtitle }}</p>-->
+                   </div>
+                 </div>
+	              {% endfor %}
+                  <div class="timeline-panel">
+                    <div class="timeline-heading">
+                     <h4>{{ event.year | markdownify }}</h4>
+                      <h4 class="subheading">{{ event.title }}</h4>
+                    </div>
+                    <div class="timeline-body">
+                      <div class="text-muted">{{ event.desc | markdownify }}</div>
+                   </div>
+                  </div>               
+      </li>
+		  {% endfor %}	    
 		  {% if site.data.sitetext.timeline.end %}	
 			<li class="timeline-inverted">
               <div class="timeline-image">
@@ -44,4 +59,5 @@
       </div>
     </div>
   </section>
+  {% include modals_n.html %}
 <!-- End About -->
