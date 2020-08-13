@@ -115,8 +115,8 @@ team:
         role: "Ph.D. em Ciência da Computação <br> <b>Tutor</b>"
         image: assets/img/team/TiagoF.png
         social:
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
+          - url: https://github.com/
+            icon: fab fa-github
           - url: https://linkedin.com
             icon: fab fa-linkedin-in
       - name: " "
@@ -125,62 +125,99 @@ team:
         role: "Estudante de Ciência da Computação <br> <b>Projeto: BioView</b>"
         image: assets/img/team/1.jpg
         social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
+          - url: https://github.com/
+            icon: fab fa-github
           - url: https://linkedin.com
             icon: fab fa-linkedin-in
       - name: "Felipe Ferro"
         role: "Estudante de Ciência da Computação <br> <b>Projeto: ENADEApp</b>"
         image: assets/img/team/1.jpg
         social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
+          - url: https://github.com/
+            icon: fab fa-github
           - url: https://linkedin.com
             icon: fab fa-linkedin-in
       - name: "Jessé Rodrigues"
         role: "Estudante de Engenharia da Computação <br> <b>Projeto: Site PET-Inf</b>"
         image: assets/img/team/JesseR.jpg
         social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
+          - url: https://github.com/
+            icon: fab fa-github
           - url: https://linkedin.com
             icon: fab fa-linkedin-in
       - name: "Lucas Buffet"
         role: "Estudante de Engenharia de Software <br> <b>Projeto: ENADEApp</b>"
         image: assets/img/team/1.jpg
         social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
+          - url: https://github.com/
+            icon: fab fa-github
           - url: https://linkedin.com
             icon: fab fa-linkedin-in
       - name: "Pedro Rogoski"
         role: "Estudante de Engenharia de Software <br> <b>Projeto: BioView</b>"
         image: assets/img/team/2.jpg
         social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
+          - url: https://github.com/
+            icon: fab fa-github
           - url: https://linkedin.com
             icon: fab fa-linkedin-in
       - name: "Waldyr Schneider"
         role: "Estudante de Ciência da Computação <br> <b>Projeto: Site PET-Inf</b>"
         image: assets/img/team/3.jpg
         social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
+          - url: https://github.com/
+            icon: fab fa-github
           - url: https://linkedin.com
             icon: fab fa-linkedin-in
+      - name: "Nome"
+        role: "Estudante de  <br> <b>Projeto: </b>"
+        image: assets/img/team/3.jpg
+        social:
+          - url: https://github.com/
+            icon: fab fa-github
+          - url: https://linkedin.com
+            icon: fab fa-linkedin-in
+      - name: "Nome"
+        role: "Estudante de  <br> <b>Projeto: </b>"
+        image: assets/img/team/3.jpg
+        social:
+          - url: https://github.com/
+            icon: fab fa-github
+          - url: https://linkedin.com
+            icon: fab fa-linkedin-in
+      - name: "Nome"
+        role: "Estudante de  <br> <b>Projeto: </b>"
+        image: assets/img/team/3.jpg
+        social:
+          - url: https://github.com/
+            icon: fab fa-github
+          - url: https://linkedin.com
+            icon: fab fa-linkedin-in
+      - name: "Nome"
+        role: "Estudante de  <br> <b>Projeto: </b>"
+        image: assets/img/team/3.jpg
+        social:
+          - url: https://github.com/
+            icon: fab fa-github
+          - url: https://linkedin.com
+            icon: fab fa-linkedin-in
+      - name: "Nome"
+        role: "Estudante de  <br> <b>Projeto: </b>"
+        image: assets/img/team/3.jpg
+        social:
+          - url: https://github.com/
+            icon: fab fa-github
+          - url: https://linkedin.com
+            icon: fab fa-linkedin-in
+      - name: "Nome"
+        role: "Estudante de  <br> <b>Projeto: </b>"
+        image: assets/img/team/3.jpg
+        social:
+          - url: https://github.com/
+            icon: fab fa-github
+          - url: https://linkedin.com
+            icon: fab fa-linkedin-in
+      
           
 contact:
     title: "Fale Conosco"
