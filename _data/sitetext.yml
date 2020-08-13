@@ -103,25 +103,13 @@ clients:
       - title: "PET-MEC"
         url: http://portal.mec.gov.br/component/tags/tag/32496
         logo: assets/img/clients/logo-Mec-.png
-      - title: "PUCRS"
-        url: http://www.pucrs.br/
-        logo: assets/img/clients/logo-PUCRS.png
-      - title: "PET-MEC"
-        url: http://portal.mec.gov.br/component/tags/tag/32496
-        logo: assets/img/clients/logo-Mec-.png
-      - title: "PUCRS"
-        url: http://www.pucrs.br/
-        logo: assets/img/clients/logo-PUCRS.png
-      - title: "PET-MEC"
-        url: http://portal.mec.gov.br/component/tags/tag/32496
-        logo: assets/img/clients/logo-Mec-.png
     
 team:
     title: "Nossa Equipe"
     #text: "Lorem ipsum dolor sit amet consectetur."
     #subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
     section: team
-    people:
+    people2:
       - name: " "
       - name: "Prof. Dr. Tiago Ferreto"
         role: "Ph.D. em Ciência da Computação <br> <b>Tutor</b>"
@@ -132,6 +120,7 @@ team:
           - url: https://linkedin.com
             icon: fab fa-linkedin-in
       - name: " "
+    people:
       - name: "Daniela Rigoli"
         role: "Estudante de Ciência da Computação <br> <b>Projeto: BioView</b>"
         image: assets/img/team/1.jpg
