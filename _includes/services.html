@@ -21,7 +21,10 @@
           <h4 class="service-heading">{{ service.title | markdownify }}</h4>
           {% if service.desc %}<div class="text-muted">{{ service.desc | markdownify }}</div>{% endif %}
         </div>
-	  {% endfor %}
+    {% endfor %}
+    {%- if site.data.sitetext.services.list.button -%}
+        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="{{ site.data.sitetext.header.buttonlink }}">{{ site.data.sitetext.services.list.button }}</a>
+	  {%- endif -%}
       </div>
 	  
     </div>
