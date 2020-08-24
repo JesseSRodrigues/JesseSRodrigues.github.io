@@ -16,9 +16,18 @@
     {% else %}
     <li>
     {% endif %}
+         
             <div class="timeline-image">
+              <a class="portfolio-link" data-toggle="modal" href="#p{{ forloop.index }}">
+                <div class="portfolio-hover">
+                  <div class="portfolio-hover-content">
+                    <i class="{{ site.data.style.portfolio-icon | default: "fas fa-plus fa-3x" }}"></i>
+                  </div>
+                </div> 
               <img class="rounded-circle img-fluid" src="{{ event.image }}" alt="{{ event.alt | default: ""}}">
+              </a>
             </div>
+          
             <div class="timeline-panel">
               <div class="timeline-heading">
                 <h4>{{ event.year | markdownify }}</h4>
