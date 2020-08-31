@@ -22,10 +22,10 @@ services:
 
                 <li>Edital 2020/1 - Encerrado</li>
 
-                <li><b>Edital 2020/2 - Em Andamento</b></li>
+                <li>Edital 2020/2 - Encerrado</li>
 
             </ul>
-        button: Projetos
+        #button: Projetos
         #buttonlink: "#portfolio" # "#{section}" or "URL/page link" 
         icon: fas fa-users
 
