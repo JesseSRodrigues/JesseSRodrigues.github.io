@@ -1,6 +1,6 @@
 nav:
-  - title: "Notícias"
-    section: noticias
+  #- title: "Notícias"
+  # section: noticias
 
   - title: "Sobre"
     section: services
@@ -8,6 +8,9 @@ nav:
   - title: "Projetos"
     section: portfolio
     
+  - title: "Teste"
+    section: historia
+
   - title: "História"
     section: timeline
 
