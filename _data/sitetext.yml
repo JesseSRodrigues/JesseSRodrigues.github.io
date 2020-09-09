@@ -4,6 +4,9 @@ header:
     #button: Projetos
     #buttonlink: "#portfolio" # "#{section}" or "URL/page link"
 
+noticias:
+    title: Notícias
+    text:
 services:
     title: "Sobre"
     text: " "

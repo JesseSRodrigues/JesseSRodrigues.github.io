@@ -1,15 +1,15 @@
 nav:
   #- title: "Notícias"
   # section: noticias
+  
+  - title: "Noticias"
+    section: noticias
 
   - title: "Sobre"
     section: services
 
   - title: "Projetos"
     section: portfolio
-    
-  - title: "Teste"
-    section: historia
 
   - title: "História"
     section: timeline
