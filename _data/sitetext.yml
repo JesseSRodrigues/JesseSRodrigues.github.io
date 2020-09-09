@@ -7,7 +7,8 @@ header:
 noticias:
     title: Notícias
     text:
-            
+    section: noticias
+
 services:
     title: "Sobre"
     text: " "
