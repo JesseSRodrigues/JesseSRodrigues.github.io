@@ -1,10 +1,10 @@
 ---
-title: BioView
+title: Teste
 subtitle: Este projeto é uma iniciativa de Ciência Cidadã! A ideia principal é desenvolver um aplicativo que conecte as pessoas com a natureza e crie conscientização sobre a biodiversidade existente no campus da universidade.
 image: https://raw.githubusercontent.com/JesseSRodrigues/JesseSRodrigues.github.io/master/assets/img/log%20v0.1.png
 
 caption:
-  title: BioView
+  title: Teste
   subtitle: Aplicação
   #thumbnail: https://raw.githubusercontent.com/JesseSRodrigues/JesseSRodrigues.github.io/master/assets/img/capa-bioview.png
 
