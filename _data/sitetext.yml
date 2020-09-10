@@ -117,7 +117,6 @@ team:
     #subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
     section: team
     people2:
-      - name: " "
       - name: "Prof. Dr. Tiago Ferreto"
         role: "Ph.D. em Ciência da Computação <br> Tutor"
         image: assets/img/team/TiagoF.png
@@ -126,7 +125,6 @@ team:
             icon: fab fa-github
           - url: https://linkedin.com
             icon: fab fa-linkedin-in
-      - name: " "
     people:
       - name: "Daniela Rigoli"
         role: "Ciência da Computação <br> Ingresso: "
