@@ -126,7 +126,7 @@ team:
           - url: https://linkedin.com
             icon: fab fa-linkedin-in
     people:
-      - name: "Daniela Rigoli"
+       - name: "Felipe Ferro"
         role: "Ciência da Computação <br> Ingresso: "
         image: assets/img/team/1.jpg
         social:
@@ -134,8 +134,16 @@ team:
             icon: fab fa-github
           - url: https://linkedin.com
             icon: fab fa-linkedin-in
-      - name: "Felipe Ferro"
-        role: "Ciência da Computação <br> Ingresso: "
+      - name: "Henrique Derlam"
+        role: "Engenharia de Software <br> Ingresso: 09/2020 "
+        image: assets/img/team/1.jpg
+        social:
+          - url: https://github.com/
+            icon: fab fa-github
+          - url: https://www.linkedin.com/in/henrique-derlam-952a941b5/
+            icon: fab fa-linkedin-in
+      - name: "Henrique Feijó"
+        role: "Engenharia de Computação <br> Ingresso: 09/2020 "
         image: assets/img/team/1.jpg
         social:
           - url: https://github.com/
