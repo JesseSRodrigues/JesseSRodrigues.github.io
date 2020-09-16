@@ -112,7 +112,7 @@ clients:
         logo: assets/img/clients/logo-Mec-.png
     
 team:
-    title: "Nossa Equipe"
+    title: "aehfuahef"
     #text: "Lorem ipsum dolor sit amet consectetur."
     #subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
     section: team
@@ -126,7 +126,7 @@ team:
           - url: https://linkedin.com
             icon: fab fa-linkedin-in
     people:
-       - name: "Felipe Ferro"
+      - name: "Felipe Ferro"
         role: "Ciência da Computação <br> Ingresso: "
         image: assets/img/team/1.jpg
         social:
@@ -190,7 +190,16 @@ team:
             icon: fab fa-github
           - url: https://linkedin.com
             icon: fab fa-linkedin-in
-      - name: "Nome"
+      
+      - name: "Nomgiseiug"
+        role: "Curso  <br> Ingresso: "
+        image: assets/img/team/3.jpg
+        social:
+          - url: https://github.com/
+            icon: fab fa-github
+          - url: https://linkedin.com
+            icon: fab fa-linkedin-in
+            - name: "Nome"
         role: "Curso  <br> Ingresso: "
         image: assets/img/team/3.jpg
         social:
