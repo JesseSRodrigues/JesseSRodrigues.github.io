@@ -199,7 +199,7 @@ team:
             icon: fab fa-github
           - url: https://linkedin.com
             icon: fab fa-linkedin-in
-            - name: "Nome"
+      - name: "Nome"
         role: "Curso  <br> Ingresso: "
         image: assets/img/team/3.jpg
         social:
