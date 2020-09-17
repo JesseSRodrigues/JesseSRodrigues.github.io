@@ -1,6 +1,6 @@
 <!-- Portfolio Modals -->
-{% for project in site.gradenoticias %}
-  <div class="portfolio-modal modal fade" id="p{{ forloop.index }}" tabindex="-1" role="dialog" aria-hidden="true">
+{% for project in site.data.sitetext.timeline.events %}
+  <div class="timeline-modal modal fade" id="p{{ forloop.index }}" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="close-modal" data-dismiss="modal">
