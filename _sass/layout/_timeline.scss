@@ -46,14 +46,13 @@
     }
     .timeline-image {
       position: absolute;
-      top: 50%;
       z-index: 100;
       left: 0;
       width: 80px;
       height: 80px;
       margin-left: 0;
       text-align: center;
-      color: white;
+      color: $white;
       border: 7px solid $gray-200;
       border-radius: 100%;
       background-color: $primary;
@@ -62,7 +61,7 @@
         line-height: 14px;
         margin-top: 12px;
       }
-    }
+    }     
     &.timeline-inverted > .timeline-panel {
       float: right;
       padding: 0 20px 0 100px;
@@ -100,44 +99,36 @@
     }
   }
 }
-.portfolio-link {
-  position: relative;
-  display: block;
-  width: 200px;
-  height: 200px;
-  margin: 0 auto;
-  cursor: pointer;
-  .portfolio-hover {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    -webkit-transition: all ease 0.5s;
-    -moz-transition: all ease 0.5s;
-    transition: all ease 0.5s;
-    opacity: 0;
-    background: fade-out($primary, .1);
-    &:hover {
-      opacity: 1;
-    }
-    .portfolio-hover-content {
-      font-size: 20px;
-      position: absolute;
-      top: 50%;
-      width: 100%;
-      height: 20px;
-      margin-top: -12px;
-      text-align: center;
-      color: white;
-      i {
-        margin-top: -12px;
-      }
-      h3,
-      h4 {
-        margin: 0;
-      }
-    }
-  }
+.portfolio-hover {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        -webkit-transition: all ease 0.5s;
+        -moz-transition: all ease 0.5s;
+        transition: all ease 0.5s;
+        opacity: 0;
+        background: fade-out($primary, .1);
+        &:hover {
+          opacity: 1;
+        }
 }
+.portfolio-hover-content {
+          font-size: 20px;
+          position: absolute;
+          top: 50%;
+          width: 100%;
+          height: 20px;
+          margin-top: -18px;
+          text-align: center;
+          color: white;
+          i {
+            margin-top: -18px;
+          }
+          h3,
+          h4 {
+            margin: 0;
+          }
+        }
 @media(min-width:768px) {
   .timeline {
     &:before {
@@ -152,7 +143,7 @@
         padding: 0 20px 20px 30px;
         text-align: right;
       }
-       .timeline-image {
+      .timeline-image {
         left: 50%;
         width: 100px;
         height: 100px;
