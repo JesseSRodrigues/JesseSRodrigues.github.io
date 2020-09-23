@@ -1,6 +1,6 @@
 <!-- Timeline Modals -->
-<!-- {% for memoria in site.timeline %} -->
-  <div class="portfolio-modal modal fade" id="t{{ forloop.index }}" tabindex="-1" role="dialog" aria-hidden="true">
+{% for memoria in site.timeline %}
+  <div class="timeline-modal modal fade" id="t{{ forloop.index }}" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="close-modal" data-dismiss="modal">
@@ -29,5 +29,5 @@
       </div>
     </div>
   </div>
-<!-- {% endfor %} -->
+{% endfor %}
 <!-- End Timeline Modals -->
