@@ -1,5 +1,5 @@
 <!-- Timeline Modals -->
-{% for event in site.data.sitetext.timeline.events %}
+{% for project in site.timeline %}
   <div class="timeline-modal modal fade" id="t{{ forloop.index }}" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
@@ -13,12 +13,12 @@
             <div class="col-lg-8 mx-auto">
               <div class="modal-body">
                 <!-- Project Details Go Here -->
-                <h2 class="text-uppercase">{{ site.portfolio.project.title }}</h2>
-                <p class="item-intro text-muted">{{ site.timeline.memoria.subtitle }}</p>
-                <img class="img-fluid d-block mx-auto" src="{{ site.timeline.memoria.image }}" alt="{{ site.timeline.memoria.alt }}">
-        <p>{{ site.timeline.memoria.content }}</p>
-                <p class="text">{{ site.timeline.memoria.text }}</p>
-                <img class="img-fluid d-block mx-auto" src="{{ site.timeline.memoria.memoria.imag }}" alt="{{ site.timeline.memoria.alt2 }}">
+                <h2 class="text-uppercase">{{ project.title }}</h2>
+                <p class="item-intro text-muted">{{ project.subtitle }}</p>
+                <img class="img-fluid d-block mx-auto" src="{{ project.image }}" alt="{{ project.alt }}">
+        <p>{{ project.content }}</p>
+                <p class="text">{{ project.text }}</p>
+                <img class="img-fluid d-block mx-auto" src="{{ project.imag }}" alt="{{ project.alt2 }}">
                 <button class="btn btn-primary" data-dismiss="modal" type="button">
                   <i class="fas fa-angle-left"></i>
                   Voltar</button>
