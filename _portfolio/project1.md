@@ -39,6 +39,32 @@ text: <p align="justify">O Campus da PUCRS é conhecido por sua arquitetura mode
       </ul>
 
       <p align="right">Última atualização&#58 13/08/2020</p>
+      
+people:
+      - name: "Felipe Ferro"
+        role: "<b>Ciência da Computação</b> <br> Ingresso: 09/2018"
+        image: assets/img/team/FelipeF.jpg
+        social:
+          - url: https://github.com/Felipe3Ferro
+            icon: fab fa-github
+          - url: https://www.linkedin.com/in/felipe-ferro-76a077191/
+            icon: fab fa-linkedin-in
+      - name: "Henrique Derlam"
+        role: "<b>Engenharia de Software</b> <br> Ingresso: 09/2020"
+        image: assets/img/team/HenriqueD.png
+        social:
+          - url: https://github.com/henrique-zw
+            icon: fab fa-github
+          - url: https://www.linkedin.com/in/henrique-derlam-952a941b5/
+            icon: fab fa-linkedin-in
+      - name: "Henrique Feijó"
+        role: "<b>Engenharia de Computação</b> <br> Ingresso: 09/2020"
+        image: assets/img/team/HenriqueF.png
+        social:
+          - url: https://github.com/thehenrik18 
+            icon: fab fa-github
+          - url: https://www.linkedin.com/in/henrique-feij%C3%B3-4245491b7
+            icon: fab fa-linkedin-in
 
 
 
