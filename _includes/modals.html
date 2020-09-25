@@ -19,7 +19,7 @@
         <p>{{ project.content }}</p>
                 <p class="text">{{ project.text }}</p>
                 <img class="img-fluid d-block mx-auto" src="{{ project.imag }}" alt="{{ project.alt2 }}">
-                {% for person in project.person %}
+                {% for person in project.people %}
 	                <div class="col-sm-12">
 	                  <div class="team-member">
 		                  <img class="mx-auto rounded-circle" src="{{ person.image }}" alt="">
