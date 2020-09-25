@@ -1,4 +1,12 @@
 ---
+events:
+      - title: "Criação do PET-Informática"
+        year: "Novembro 1991"
+        desc: "O PET-Inf foi criado na PUCRS ao final de 1991, tendo como primeiro tutor o professor Álvaro Guarda."
+        image: assets/img/timeline/1.jpg
+        alt: 
+        #align: left
+
 title: Teste
 subtitle: Este projeto é uma iniciativa de Ciência Cidadã! A ideia principal é desenvolver um aplicativo que conecte as pessoas com a natureza e crie conscientização sobre a biodiversidade existente no campus da universidade.
 image: https://raw.githubusercontent.com/JesseSRodrigues/JesseSRodrigues.github.io/master/assets/img/log%20v0.1.png
