@@ -1,7 +1,7 @@
 ---
 title: Site PET-Inf
 subtitle: Novo site de divulgação dos projetos.
-image: https://raw.githubusercontent.com/JesseSRodrigues/JesseSRodrigues.github.io/master/assets/img/Tela_Site.jpg
+image: https://raw.githubusercontent.com/JesseSRodrigues/JesseSRodrigues.github.io/master/assets/img/Tela_Site2.jpg
 alt:
 
 caption:
@@ -31,15 +31,34 @@ text: <p align="justify">Como parte do projeto de divulgação do PET-Informáti
 
       </ul>
 
-      <p align="justify">Integrantes do PET-Inf no projeto:</p>
+      <p align="right">Última atualização&#58 13/08/2020</p>
+      
+      <p align="center">Integrantes do PET-Inf no projeto:</p>
 
-      <ul align="left">
+people:
+      - name: "Jessé Rodrigues"
+        role: "<b>Engenharia de Computação</b> <br> Ingresso: 07/2020"
+        image: assets/img/team/JesseR.jpg
+        social:
+          - url: https://github.com/JesseSRodrigues
+            icon: fab fa-github
+          - url: https://www.linkedin.com/in/jessé-rodrigues-8522031b4
+            icon: fab fa-linkedin-in
+      - name: "Pedro Machado"
+        role: "<b>Ciência da Computação</b> <br> Ingresso: 09/2020"
+        image: assets/img/team/PedroM.jpg
+        social:
+          - url: https://github.com/Pedro30Machado
+            icon: fab fa-github
+          - url: https://www.linkedin.com/in/pedro-machado-3a74741b7
+            icon: fab fa-linkedin-in
+      - name: "Waldyr Schneider"
+        role: "<b>Ciência da Computação</b> <br> Ingresso: 04/2020"
+        image: assets/img/team/WaldyrS.jpeg
+        social:
+          - url: https://github.com/WaldyrSchneider
+            icon: fab fa-github
+          - url: https://www.linkedin.com/in/waldyr-schneider/
+            icon: fab fa-linkedin-in
 
-        <li>Jessé Rodrigues</li>
-
-        <li>Waldyr Schneider</li>
-
-      </ul>
-
-      <p align="right">Última atualização&#58 12/08/2020</p>
 ---

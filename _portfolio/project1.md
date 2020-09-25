@@ -28,35 +28,11 @@ text: <p align="justify">O Campus da PUCRS é conhecido por sua arquitetura mode
 
       </ul>
 
-      <p align="justify">Integrantes do PET-Inf no projeto:</p>
-
-      <ul align="left">
-
-        <li>Daniela Rigoli</li>
-
-        <li>Pedro Rogoski</li>
-
-      </ul>
-
       <p align="right">Última atualização&#58 13/08/2020</p>
       
+      <p align="center">Integrantes do PET-Inf no projeto:</p>
+
 people:
-      - name: "Felipe Ferro"
-        role: "<b>Ciência da Computação</b> <br> Ingresso: 09/2018"
-        image: assets/img/team/FelipeF.jpg
-        social:
-          - url: https://github.com/Felipe3Ferro
-            icon: fab fa-github
-          - url: https://www.linkedin.com/in/felipe-ferro-76a077191/
-            icon: fab fa-linkedin-in
-      - name: "Henrique Derlam"
-        role: "<b>Engenharia de Software</b> <br> Ingresso: 09/2020"
-        image: assets/img/team/HenriqueD.png
-        social:
-          - url: https://github.com/henrique-zw
-            icon: fab fa-github
-          - url: https://www.linkedin.com/in/henrique-derlam-952a941b5/
-            icon: fab fa-linkedin-in
       - name: "Henrique Feijó"
         role: "<b>Engenharia de Computação</b> <br> Ingresso: 09/2020"
         image: assets/img/team/HenriqueF.png
@@ -65,7 +41,21 @@ people:
             icon: fab fa-github
           - url: https://www.linkedin.com/in/henrique-feij%C3%B3-4245491b7
             icon: fab fa-linkedin-in
-
-
+      - name: "Luiz Otávio"
+        role: "<b>Sistemas de Informação</b> <br> Ingresso: 09/2020"
+        image: assets/img/team/LuizO.jpg
+        social:
+          - url: https://github.com/Wolxf2
+            icon: fab fa-github
+          - url: https://www.linkedin.com/in/luiz-ot%C3%A1vio-jirkowsky-e-silva-b114741b7/
+            icon: fab fa-linkedin-in
+      - name: "Pedro Rogoski"
+        role: "<b>Engenharia de Software</b> <br> Ingresso: 04/2020"
+        image: assets/img/team/PedroR.jpeg
+        social:
+          - url: https://github.com/Rogoski21
+            icon: fab fa-github
+          - url: https://www.linkedin.com/in/pedro-maia-rogoski-705119183/
+            icon: fab fa-linkedin-in
 
 ---

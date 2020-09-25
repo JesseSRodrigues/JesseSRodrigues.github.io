@@ -31,16 +31,35 @@ text: <p align="justify">O Exame Nacional de Desempenho dos Estudantes (Enade) �
 
       </ul>
 
-      <p align="justify">Integrantes do PET-Inf no projeto:</p>
+      <p align="right">Última atualização&#58 13/08/2020</p>
+      
+      <p align="center">Integrantes do PET-Inf no projeto:</p>
 
-      <ul align="left">
+people:
+      - name: "Felipe Ferro"
+        role: "<b>Ciência da Computação</b> <br> Ingresso: 09/2018"
+        image: assets/img/team/FelipeF.jpg
+        social:
+          - url: https://github.com/Felipe3Ferro
+            icon: fab fa-github
+          - url: https://www.linkedin.com/in/felipe-ferro-76a077191/
+            icon: fab fa-linkedin-in
+      - name: "Lucas Buffet"
+        role: "<b>Engenharia de Software</b> <br> Ingresso: 04/2020"
+        image: assets/img/team/LucasB.jpg
+        social:
+          - url: https://github.com/lebuffet02
+            icon: fab fa-github
+          - url: https://www.linkedin.com/in/lucas-buffet-28b7061b4/
+            icon: fab fa-linkedin-in
+      - name: "Rafael Shaker"
+        role: "<b>Engenharia de Computação</b> <br> Ingresso: 09/2020"
+        image: assets/img/team/RafaelS.jpeg
+        social:
+          - url: https://github.com/Rafael-Schaker
+            icon: fab fa-github
+          - url: https://www.linkedin.com/in/rafael-schaker-7b63821b6/
+            icon: fab fa-linkedin-in
 
-        <li>Felipe Ferro</li>
-
-        <li>Lucas Buffet</li>
-
-      </ul>
-
-      <p align="right">Última atualização&#58 11/08/2020</p>
 ---
 
