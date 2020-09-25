@@ -91,7 +91,7 @@ timeline:
         image: assets/img/timeline/4.jpg
         alt: 
         align: right
-    end: "Faça parte <br> da nossa <br> história!"
+    end: "<a href="blog/teste.html" target="_blank"><b>Clique aqui</br> para saber mais!</a>"
 
 #about:
     #title: "About Us"
