@@ -3,3 +3,11 @@
   margin: 15px 0;
   text-transform: none;
 }
+.link-blog {
+  background-image: url("#{$blog-image}");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+}
+
