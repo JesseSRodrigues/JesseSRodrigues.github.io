@@ -33,8 +33,8 @@ services:
         #button: Projetos
         #buttonlink: "#portfolio" # "#{section}" or "URL/page link" 
         icon: fas fa-users
-    buttonblog: Acesse Nosso Blog!
-    buttonlinkblog: "#team" # "#{section}" or "URL/page link"
+    button: Acesse Nosso Blog!
+    buttonlink: "#team" # "#{section}" or "URL/page link"
   
 
 portfolio:
