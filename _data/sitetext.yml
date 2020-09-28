@@ -11,7 +11,7 @@ noticias:
 
 services:
     title: "Sobre"
-    text: " "
+    text: ""
     section: services
     list:
       - title: "O Programa"
