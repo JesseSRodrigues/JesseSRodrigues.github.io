@@ -2,8 +2,8 @@ nav:
   #- title: "Notícias"
   # section: noticias
   
-  - title: "Noticias"
-    section: noticias
+  - title: "Blog"
+    url: https://jessesrodrigues.github.io/legal
 
   - title: "Sobre"
     section: services
