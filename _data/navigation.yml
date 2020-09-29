@@ -3,7 +3,7 @@ nav:
   # section: noticias
   
   - title: "Blog"
-    #url: https://jessesrodrigues.github.io/blog/inicio
+    url: https://jessesrodrigues.github.io/blog/inicio
 
   - title: "Sobre"
     section: services

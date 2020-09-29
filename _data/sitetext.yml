@@ -34,7 +34,7 @@ services:
         #buttonlink: "#portfolio" # "#{section}" or "URL/page link" 
         icon: fas fa-users
     button: Acesse Nosso Blog!
-    buttonlink: "https://jessesrodrigues.github.io/legal" # "#{section}" or "URL/page link"
+    buttonlink: "https://jessesrodrigues.github.io/blog/inicio" # "#{section}" or "URL/page link"
   
 
 portfolio:
