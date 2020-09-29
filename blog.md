@@ -10,6 +10,6 @@ title: Blog PET-Inf
 Teste Blog PET-Inf 6
 
 <div class="col-lg-12 text-center">
-	<a href="https://jessesrodrigues.github.io/posts/teste""><b>Ir para post1</b></a>
+	<a href="https://jessesrodrigues.github.io/posts/teste"><b>Ir para post1</b></a>
 </div>
 
