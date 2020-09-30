@@ -37,10 +37,10 @@ services:
     buttonlink: "https://jessesrodrigues.github.io/blog" # "#{section}" or "URL/page link"
   
 
-portfolio1:
-    title: "Projetos1"
+portfolio:
+    title: "Projetos"
     text: "Veja os trabalhos em desenvolvimento!"
-    section: portfolio1
+    section: portfolio
 
 historia: 
     title: "teste-title"

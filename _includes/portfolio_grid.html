@@ -1,5 +1,5 @@
 <!-- Portfolio Grid -->
-<section class="bg-light page-section" id="{{ site.data.sitetext.portfolio1.section | default: "portfolio1" }}">
+<section class="bg-light page-section" id="{{ site.data.sitetext.portfolio.section | default: "portfolio" }}">
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center">
@@ -8,7 +8,7 @@
       </div>
     </div>
     <div class="row">
-	{% for project in site.portfolio1 %}
+	{% for project in site.portfolio %}
       <div class="col-md-4 col-sm-6 portfolio-item">
         <a class="portfolio-link" data-toggle="modal" href="#p{{ forloop.index }}">
           <div class="portfolio-hover">
