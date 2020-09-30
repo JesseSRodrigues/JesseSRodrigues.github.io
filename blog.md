@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Blog PET-Inf 8
+title: Blog PET-Inf 9
 ---
 
 {% include blog_grid.html %}

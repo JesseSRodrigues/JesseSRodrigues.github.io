@@ -1,6 +1,6 @@
 <!-- Portfolio Modals -->
-{% for project in site.blog %}
-  <div class="blog-modal modal fade" id="/_blog/post{{ forloop.index }}" tabindex="-1" role="dialog" aria-hidden="true">
+{% for post in site.posts %}
+  <div class="blog-modal modal fade" id="p{{ forloop.index }}" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="close-modal" data-dismiss="modal">
@@ -13,18 +13,18 @@
             <div class="col-lg-12 mx-auto">
               <div class="modal-body">
                 <!-- Project Details Go Here -->
-                <h2 class="text-uppercase">{{ project.title }}</h2>
-                <p class="item-intro text-muted">{{ project.subtitle }}</p>
-                <img class="img-fluid d-block mx-auto" src="{{ project.image }}" alt="{{ project.alt }}">
-        <p>{{ project.content }}</p>
-                <p class="text">{{ project.text }}</p>
-                <img class="img-fluid d-block mx-auto" src="{{ project.imag }}" alt="{{ project.alt2 }}">
+                <h2 class="text-uppercase">{{ post.title }}</h2>
+                <p class="item-intro text-muted">{{ post.subtitle }}</p>
+                <img class="img-fluid d-block mx-auto" src="{{ post.image }}" alt="{{ post.alt }}">
+        <p>{{ post.content }}</p>
+                <p class="text">{{ post.text }}</p>
+                <img class="img-fluid d-block mx-auto" src="{{ post.imag }}" alt="{{ post.alt2 }}">
               </div>
             </div>
-            {% for person in project.people %}
+            {% for person in post.people %}
             <div class="col">
               <div class="team-member">
-                <img class="mx-auto rounded-circle" src="{{ person.image }}" alt="">
+                <img class="mx-auto rounded-circle" src="{{ post.image }}" alt="">
                 <h4>{{ person.name }}</h4>
                 <p class="text-muted">{{ person.role }}</p>
                 <ul class="list-inline social-buttons">
