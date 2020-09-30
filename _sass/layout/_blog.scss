@@ -1,15 +1,15 @@
 // Styling for the portfolio section
 #blog {
-    .portfolio-item {
+    .blog-item {
       right: 0;
       margin: 0 0 15px;
-      .portfolio-link {
+      .blog-link {
         position: relative;
         display: block;
         max-width: 400px;
         margin: 0 auto;
         cursor: pointer;
-        .portfolio-hover {
+        .blog-hover {
           position: absolute;
           width: 100%;
           height: 100%;
@@ -21,7 +21,7 @@
           &:hover {
             opacity: 1;
           }
-          .portfolio-hover-content {
+          .blog-hover-content {
             font-size: 20px;
             position: absolute;
             top: 50%;
@@ -40,7 +40,7 @@
           }
         }
       }
-      .portfolio-caption {
+      .blog-caption {
         max-width: 400px;
         margin: 0 auto;
         padding: 25px;
@@ -64,13 +64,13 @@
   }
   @media(min-width:765px) {
     #blog {
-      .portfolio-item {
+      .blog-item {
         margin: 0 0 30px;
       }
     }
   }
   
-  .portfolio-modal {
+  .blog-modal {
     .modal-dialog {
       margin: 1rem;
       max-width: 100vw;

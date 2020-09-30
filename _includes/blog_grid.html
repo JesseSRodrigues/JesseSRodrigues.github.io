@@ -9,16 +9,16 @@
       </div>
       <div class="row">
       {% for post in site.posts %}
-        <div class="col-md-4 col-sm-6 portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="#p{{ forloop.index }}">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content">
+        <div class="col-md-4 col-sm-6 blog-item">
+          <a class="blog-link" data-toggle="modal" href="#p{{ forloop.index }}">
+            <div class="blog-hover">
+              <div class="blog-hover-content">
                 <i class="{{ site.data.style.portfolio-icon | default: "fas fa-plus fa-3x" }}"></i>
               </div>
             </div>
             <img class="img-fluid" src="{{ post.caption.thumbnail }}" alt="">
           </a>
-          <div class="portfolio-caption">
+          <div class="blog-caption">
             <h4>{{ post.caption.title }}</h4>
             <p class="text-muted">{{ post.caption.subtitle }}</p>
           </div>
