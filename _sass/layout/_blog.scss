@@ -1,9 +1,9 @@
 // Styling for the portfolio section
 #blog {
-    .blog-item {
+    .portfolio-item {
       right: 0;
       margin: 0 0 15px;
-      .blog-link {
+      .portfolio-link {
         position: relative;
         display: block;
         max-width: 400px;
@@ -63,14 +63,14 @@
     }
   }
   @media(min-width:765px) {
-    #blog {
-      .blog-item {
+    #portfolio {
+      .portfolio-item {
         margin: 0 0 30px;
       }
     }
   }
   
-  .blog-modal {
+  .portfolio-modal {
     .modal-dialog {
       margin: 1rem;
       max-width: 100vw;
