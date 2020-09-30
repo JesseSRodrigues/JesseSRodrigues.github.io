@@ -38,9 +38,9 @@ services:
   
 
 portfolio:
-    title: "Projetos"
+    title: "Projetos1"
     text: "Veja os trabalhos em desenvolvimento!"
-    section: portfolio
+    section: portfolio1
 
 historia: 
     title: "teste-title"
