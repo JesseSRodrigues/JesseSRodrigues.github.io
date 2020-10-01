@@ -1,6 +1,6 @@
 ---
-layout: blog
-title: Blog PET-Inf 18
+layout: page
+title: Blog PET-Inf 19
 ---
 
 teste
