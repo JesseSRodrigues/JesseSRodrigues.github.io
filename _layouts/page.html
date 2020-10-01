@@ -3,8 +3,6 @@ layout: default
 ---
 {% include nav.html %}
 
-{% include portfolio_grid.html %}
-
 {% if page.background == "grey" or page.background == "gray" %}
 <script>
 document.getElementById("page-top").className="bg-light";
@@ -14,3 +12,5 @@ document.getElementById("page-top").className="bg-light";
 <div class="container" id="pagecontainer">
 {{ content }}
 </div>
+
+{% include blog_grid.html %}
