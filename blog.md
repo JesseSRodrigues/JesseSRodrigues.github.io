@@ -1,9 +1,9 @@
 ---
-layout: page
-title: Blog PET-Inf 16
+layout: blog
+title: Blog PET-Inf 17
 ---
 
-{% include blog_grid.html %}
+teste
 
 <!-- <div class="col-lg-12 text-center">
 	<h2 class="section-heading text-uppercase">Teste</h2>
