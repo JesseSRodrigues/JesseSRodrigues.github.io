@@ -1,4 +1,4 @@
 ---
-layout: page
-title: Blog PET-Inf 29
+layout: blog
+title: Blog PET-Inf 30
 ---

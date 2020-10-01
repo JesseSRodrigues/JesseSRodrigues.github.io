@@ -10,7 +10,6 @@ document.getElementById("page-top").className="bg-light";
 {% endif %}
 
 <div class="container" id="pagecontainer">
-{{ content }}
+{% include blog_grid.html %}
 </div>
 
-{% include blog_grid.html %}
