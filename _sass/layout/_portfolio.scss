@@ -73,15 +73,15 @@
 .blog-caption {
   max-width: 400px;
   margin: 0 auto;
-  padding: 25px;
+  //padding: 25px;
   //text-align: center;
   //background-color: $white;
-  margin-top: 15px;
+  margin-top: 25px;
   p.post-data {
     flex-grow: 1;
-    font-size: 12px;
+    font-size: 14px;
     text-transform: uppercase;
-    letter-spacing: -0.2px;
+    //letter-spacing: -0.2px;
     color: #b7b9c2;
   }
   h4 {
