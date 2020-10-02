@@ -19,8 +19,9 @@
             <img class="img-fluid" src="{{ post.caption.thumbnail }}" alt="">
           </a>
           <div class="blog-caption">
+            <p class="post-data">{{ post.caption.data }}</p>
             <h4>{{ post.caption.title }}</h4>
-            <p class="text-muted">{{ post.caption.subtitle }}</p>
+            <p class="blog-subtitle">{{ post.caption.subtitle }}</p>
           </div>
         </div>
       {% endfor %}

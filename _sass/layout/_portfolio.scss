@@ -74,16 +74,23 @@
   max-width: 400px;
   margin: 0 auto;
   padding: 25px;
-  text-align: center;
-  background-color: $white;
+  //text-align: center;
+  //background-color: $white;
   margin-top: 15px;
+  .post-data {
+    flex-grow: 1;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: -0.2px;
+    color: #b7b9c2;
+  }
   h4 {
-    margin: 0;
+    margin: 10px 0;
     text-transform: none;
   }
-  p {
-    font-size: 16px;
-    font-style: italic;
+  .post-subtitle {
+    font-size: 15px;
+    //font-style: italic;
     margin: 0;
     @include serif-font;
   }
