@@ -42,11 +42,6 @@ portfolio:
     text: "Veja os trabalhos em desenvolvimento!"
     section: portfolio
 
-historia: 
-    title: "teste-title"
-    text: "teste-text"
-    section: historia
-
 timeline:
     title: "História" 
     text: "Projetos já realizados!"

@@ -1,9 +1,4 @@
 nav:
-  #- title: "Notícias"
-  # section: noticias
-  
-  - title: "Blog"
-    url: https://jessesrodrigues.github.io/blog
 
   - title: "Sobre"
     section: services
@@ -20,5 +15,5 @@ nav:
   - title: "Contato"
     section: contact
 
-  #- title: "Theme Source"
-    #url: https://github.com/raviriley/agency-jekyll-theme/
+  - title: "Blog"
+    url: https://jessesrodrigues.github.io/blog
