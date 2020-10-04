@@ -4,11 +4,6 @@ header:
     #button: Projetos
     #buttonlink: "#portfolio" # "#{section}" or "URL/page link"
 
-blog:
-    title: "Blog do PET-Inf"
-    text:
-    section: blog
-
 services:
     title: "Sobre"
     text: ""
@@ -36,7 +31,6 @@ services:
     button: Acesse Nosso Blog!
     buttonlink: "https://jessesrodrigues.github.io/blog" # "#{section}" or "URL/page link"
   
-
 portfolio:
     title: "Projetos"
     text: "Veja os trabalhos em desenvolvimento!"
@@ -90,11 +84,6 @@ timeline:
         alt: 
         align: right
     end: "Clique aqui</br> para saber mais!"
-
-#about:
-    #title: "About Us"
-    #text: "our story"
-    #section: about
 
 clients:
     section: clients
