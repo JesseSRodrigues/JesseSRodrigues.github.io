@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: teste
 ---
 <div class="col-lg-12 text-center">
