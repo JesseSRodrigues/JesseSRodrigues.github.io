@@ -10,7 +10,7 @@
         </div>
         <div class="container">
           <div class="row">
-            <div class="col-lg-12 mx-auto">
+            <div class="col-lg-9 mx-auto">
               <div class="modal-body">
                 <!-- Project Details Go Here -->
                 <h2 class="text-uppercase">{{ post.title }}</h2>
@@ -20,6 +20,8 @@
                 <p class="text">{{ post.text }}</p>
               </div>
             </div>
+          </div>
+          <div class="row">
             {% for person in post.people %}
             <div class="col">
               <div class="team-member">
