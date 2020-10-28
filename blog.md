@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Blog PET-Inf 34
+title: Blog PET-Inf 35
 ---
 <div class="col-lg-12 text-center">
 	<h2 class="section-heading text-uppercase">Blog do PET-Informática</h2>
