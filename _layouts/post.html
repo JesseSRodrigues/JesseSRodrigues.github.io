@@ -12,14 +12,14 @@ document.getElementById("page-top").className="bg-light";
 <div class="container" id="post{{ forloop.index }}">
   <div class="row">
     <div class="col-lg-9 mx-auto">
-      <div class="modal-body">
+
         <!-- Project Details Go Here -->
         <h2 class="text-uppercase">{{ post.title }}</h2>
         <p class="item-intro text-muted">{{ post.subtitle }}</p>
         <img class="img-fluid d-block mx-auto" src="{{ post.image }}" alt="{{ post.alt }}">
   <p>{{ post.content }}</p> 
         <p class="text">{{ post.text }}</p>
-      </div>
+      
     </div>
   </div>
   <div class="row">
