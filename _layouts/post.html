@@ -1,13 +1,6 @@
-{% include head.html %}
-{% include nav.html %}
-
-{% if page.background == "grey" or page.background == "gray" %}
-<script>
-document.getElementById("page-top").className="bg-light";
-</script>
-{% endif %}
-
-<header class="masthead"></header>
+---
+layout: default
+---
 
 <div class="container" id="post{{ forloop.index }}">
   <div class="row">
@@ -48,5 +41,3 @@ document.getElementById("page-top").className="bg-light";
     </div>
   </div>
 </div>
-
-{% include footer.html %}
