@@ -113,14 +113,6 @@ team:
           - url: https://linkedin.com
             icon: fab fa-linkedin-in
     people:
-      - name: "Felipe Ferro"
-        role: "<b>Ciência da Computação</b> <br> Ingresso: 09/2018"
-        image: assets/img/team/FelipeF.jpg
-        social:
-          - url: https://github.com/Felipe3Ferro
-            icon: fab fa-github
-          - url: https://www.linkedin.com/in/felipe-ferro-76a077191/
-            icon: fab fa-linkedin-in
       - name: "Henrique Derlam"
         role: "<b>Engenharia de Software</b> <br> Ingresso: 09/2020"
         image: assets/img/team/HenriqueD.png
@@ -169,14 +161,6 @@ team:
             icon: fab fa-github
           - url: https://www.linkedin.com/in/pedro-filippi-4584741b7/
             icon: fab fa-linkedin-in
-      - name: "Pedro Machado"
-        role: "<b>Ciência da Computação</b> <br> Ingresso: 09/2020"
-        image: assets/img/team/PedroM.jpg
-        social:
-          - url: https://github.com/Pedro30Machado
-            icon: fab fa-github
-          - url: https://www.linkedin.com/in/pedro-machado-3a74741b7
-            icon: fab fa-linkedin-in
       - name: "Pedro Rogoski"
         role: "<b>Engenharia de Software</b> <br> Ingresso: 04/2020"
         image: assets/img/team/PedroR.jpeg
@@ -192,14 +176,6 @@ team:
           - url: https://github.com/Rafael-Schaker
             icon: fab fa-github
           - url: https://www.linkedin.com/in/rafael-schaker-7b63821b6/
-            icon: fab fa-linkedin-in
-      - name: "Thiago Borges"
-        role: "<b>Engenharia de Software</b> <br> Ingresso: 09/2020"
-        image: assets/img/team/ThiagoB.png
-        social:
-          - url: https://github.com/thiagoab02
-            icon: fab fa-github
-          - url: https://www.linkedin.com/in/thiago-aborges/
             icon: fab fa-linkedin-in
       - name: "Waldyr Schneider"
         role: "<b>Ciência da Computação</b> <br> Ingresso: 04/2020"
