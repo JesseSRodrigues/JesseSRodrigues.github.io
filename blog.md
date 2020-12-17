@@ -1,7 +1,10 @@
 ---
 layout: default
-title: Blog PET-Inf 40
+title: Blog PET-Inf 2.0
 ---
+{% include navheader.html %}
+
+
 <section class="bg-light page-section" id="{{ site.data.sitetext.blog.section | default: "blog" }}">
   <div class="container">
     <div class="row">
