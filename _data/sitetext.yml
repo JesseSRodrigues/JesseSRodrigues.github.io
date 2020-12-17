@@ -201,5 +201,7 @@ footer:
       - url: https://instagram.com
         icon: "fab fa-instagram"
 
-
+blog:
+    title: "Blog do PET-Informática"
+    section: blog
 # {{ site.data.sitetext.ex.ex | markdownify | default: example }}
