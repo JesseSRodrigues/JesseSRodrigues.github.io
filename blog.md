@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Blog PET-Inf 2.1
+title: Blog PET-Inf 2.2
 ---
 <section class="bg-light page-section" id="{{ site.data.sitetext.blog.section | default: "blog" }}">
   <div class="container">
@@ -12,7 +12,7 @@ title: Blog PET-Inf 2.1
     <div class="row">
       {% for post in site.posts %}
         <div class="col-md-4 col-sm-6 portfolio-item">
-          <a class="portfolio-link" href="{{ post.url }}">
+          <a class="portfolio-link" href="/blog/{{ post.url }}">
             <div class="portfolio-hover">
               <div class="portfolio-hover-content">
                 <i class="{{ site.data.style.portfolio-icon | default: "fas fa-plus fa-3x" }}"></i>
