@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Blog PET-Inf 2.4
+title: Blog PET-Inf 2.5
 ---
 <section class="bg-light page-section" id="{{ site.data.sitetext.blog.section | default: "blog" }}">
   <div class="container">
