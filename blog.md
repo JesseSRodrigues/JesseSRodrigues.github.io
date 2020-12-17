@@ -10,7 +10,7 @@ title: Blog PET-Inf 2.3
       </div>
     </div>
     <div class="row">
-      {% for post in site.blog.posts %}
+      {% for post in site.posts %}
         <div class="col-md-4 col-sm-6 portfolio-item">
           <a class="portfolio-link" href="/blog{{ post.url }}">
             <div class="portfolio-hover">
