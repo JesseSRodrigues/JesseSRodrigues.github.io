@@ -1,16 +1,16 @@
 ---
 layout: page
-title: Blog PET-Inf 2.2
+title: Blog PET-Inf 2.3
 ---
 <section class="bg-light page-section" id="{{ site.data.sitetext.blog.section | default: "blog" }}">
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center">
-        <h2 class="section-heading text-uppercase">{{ site.data.sitetext.blog.title | markdownify | default: "Portfolio" }}</h2>
+        <h2 class="section-heading text-uppercase">{{ site.data.sitetext.blog.title | markdownify | default: "Blog do PET-Informática" }}</h2>
       </div>
     </div>
     <div class="row">
-      {% for post in site.posts %}
+      {% for post in site.blog.posts %}
         <div class="col-md-4 col-sm-6 portfolio-item">
           <a class="portfolio-link" href="/blog{{ post.url }}">
             <div class="portfolio-hover">
