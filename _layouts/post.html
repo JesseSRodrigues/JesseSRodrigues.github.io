@@ -1,18 +1,15 @@
 ---
-layout: default
+layout: page
 ---
 
-{% include nav.html %}
-
-<div class="container">
   <div class="row">
     <div class="col-sm-6">
-      <h1>{{ post.title }}</h1>
-      <h6>{{ post.subtitle }}</h6>
+      <h1>{{ post.caption.title }}</h1>
+      <h6>{{ post.caption.subtitle }}</h6>
       <p style="text-align: justify;">{{ content }}</p>
     </div>
   </div>
-</div>
+
 
   
 
