@@ -11,19 +11,23 @@ title: Blog PET-Inf 3.2
     </div>
     <div class="row">
       {% for post in site.posts %}
-        <div class="col-md-4 col-sm-6 blog-item">
+
+      <div class="container mb-4">
+        <div class="row">
           <a class="blog-link" href="{{ post.url }}">
-            <div class="blog-hover"></div>
-            <img class="img-fluid" src="{{ post.caption.thumbnail }}" alt="">
+             <img class="col-sm-4" src="{{ post.caption.thumbnail }}" alt="Imagem de capa do card">
           </a>
-          <div class="blog-caption">
-            <p class="post-data">{{ post.caption.data }}</p>
-            <h4>
+          <div class="col-sm-8 blog-caption">
+            <h5>
               <a href="{{ post.url }}">{{ post.caption.title }}</a>
-            </h4>
+            </h5>
             <p class="blog-subtitle">{{ post.caption.subtitle }}</p>
+            <hr>
+            <p class="post-data">{{ post.caption.data }}</p>
           </div>
         </div>
+      </div>  
+      
       {% endfor %}
     </div>
   </div>
