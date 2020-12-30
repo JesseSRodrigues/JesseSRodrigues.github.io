@@ -31,6 +31,9 @@
 
 .titulo-card {
   margin-top: 10px;
+}
+
+.titulo-card a {
   text-decoration: none;
 }
 
