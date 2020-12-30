@@ -1,5 +1,9 @@
 /* cards */
 
+.pagina-blog {
+  margin: 15px;
+}
+
 .card-blog {
   transition-timing-function: ease;
   transition-duration: 0.4s;
