@@ -34,3 +34,15 @@
     width: 100%;
   }
 }
+
+/* Sidebar */
+
+.sidebar {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #cbcbcb;
+  margin-bottom: 1.25rem;
+  padding: 1.25rem;
+  background: #E4E4E4;
+  color: #333;
+}

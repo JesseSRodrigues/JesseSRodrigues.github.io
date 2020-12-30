@@ -2,22 +2,36 @@
 layout: page
 title: Blog PET-Inf 3.2
 ---
- <!-- Blog -->
 
-  <div class="jumbotron jumbotron-fluid">
+
+<!-- Blog -->
+
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 class="display-4">Blog PET-Informática</h1>
+    <hr>
+    <p class="lead">Acompanhe nossas publicações!</p>
+  </div>
+</div>
+
+<div class="row">
+  
+<!-- Sidebar -->
+  
+  <div class="col-sm-4">
     <div class="container">
-      <h1 class="display-4">Blog PET-Informática</h1>
-      <hr>
-      <p class="lead">Acompanhe nossas publicações!</p>
+      <div class="shadow p-3 sidebar">
+        <h5 class="text-center">Sidebar</h5>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique maiores quasi odit assumenda minima doloribus beatae, sed fugiat ab mollitia magnam iure saepe animi sapiente earum. Totam placeat enim sequi.</p>
+      </div>
     </div>
   </div>
 
 <!-- Cards Blog -->
 
-  <div class="row">
-    <div class="col-sm-12">
-
-     {% for post in site.posts %}
+  <div class="col-sm-8">
+    
+    {% for post in site.posts %}
 
       <div class="shadow p-3 mb-5 rounded container mb-4 card-blog">
         <div class="row card-blog-row">
@@ -37,4 +51,5 @@ title: Blog PET-Inf 3.2
 
     </div>
   </div>
+</div>
 
