@@ -7,9 +7,9 @@ layout: default
 
 <div class="jumbotron jumbotron-fluid jblog">
   <div class="container">
-    <h1 class="display-4">{{ site.post.caption.title }}</h1>
+    <h1 class="display-4">{{ post.title }}</h1>
     <hr>
-    <p class="lead">{{ post.caption.subtitle }}</p>
+    <p class="lead">{{ post.subtitle }}</p>
   </div>
 </div>
 
@@ -36,13 +36,12 @@ layout: default
 
 
   <!-- post-content -->
+  <div class="col-lg">
 
-  <div class="container postcont">
-
-
-        <p style="text-align: justify;">{{ content }}</p>
-
+      <p style="text-align: justify;">{{ content }}</p>
+ 
   </div>
+
 
 </div>
 
