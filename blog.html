@@ -15,7 +15,28 @@ title: Blog PET-Inf 3.2
 
 <div class="row pagina-blog">  
 
-  <!-- Sidebar -->
+  
+  <!-- Cards Blog -->
+  
+  <div class="col-lg">
+    {% for post in site.posts %}
+        <div class="shadow p-3 mb-5 rounded container mb-4 card-blog">
+          <div class="row card-blog-row">
+            <a class="col-sm-4 imagem" style="background-image: url(assets/img/capa-site.png);" href="" alt="Imagem de capa do card"></a>
+            <div class="col-sm-8">
+              <h5 class="titulo-card">
+                <a href="{{ post.url }}">{{ post.caption.title }}</a>
+              </h5>
+              <p class="descriçao">{{ post.caption.subtitle }}</p>
+              <hr>
+              <p class="data">{{ post.caption.data }}</p>
+            </div>
+          </div>
+        </div>  
+      {% endfor %}
+    </div>
+    
+    <!-- Sidebar -->
 
     <div class="col-lg sidebar-container">
       <div class="container">
@@ -33,25 +54,5 @@ title: Blog PET-Inf 3.2
         </div>
       </div>
     </div>
-    
-  <!-- Cards Blog -->
-    
-    <div class="col-lg">
-      {% for post in site.posts %}
-        <div class="shadow p-3 mb-5 rounded container mb-4 card-blog">
-          <div class="row card-blog-row">
-            <a class="col-sm-4 imagem" style="background-image: url(assets/img/capa-site.png);" href="" alt="Imagem de capa do card"></a>
-            <div class="col-sm-8">
-              <h5 class="titulo-card">
-                <a href="{{ post.url }}">{{ post.caption.title }}</a>
-              </h5>
-              <p class="descriçao">{{ post.caption.subtitle }}</p>
-              <hr>
-              <p class="data">{{ post.caption.data }}</p>
-            </div>
-          </div>
-        </div>  
-      {% endfor %}
-    </div>
-
+  
 </div>
