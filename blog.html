@@ -3,8 +3,7 @@ layout: page
 title: Blog PET-Inf 3.2
 ---
 
-
-<!-- Blog -->
+<!-- Header -->
 
 <div class="jumbotron jumbotron-fluid">
   <div class="container">
@@ -14,42 +13,41 @@ title: Blog PET-Inf 3.2
   </div>
 </div>
 
-<div class="row pagina-blog-row">
-  
-<!-- Sidebar -->
-  
-  <div class="col-sm-3">
-    <div class="container">
-      <div class="shadow p-3 sidebar">
-        <h5 class="text-center">Sidebar</h5>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique maiores quasi odit assumenda minima doloribus beatae, sed fugiat ab mollitia magnam iure saepe animi sapiente earum. Totam placeat enim sequi.</p>
+<div class="row pagina-blog">  
+
+  <!-- Sidebar -->
+
+    <div class="col-lg sidebar-container">
+      <div class="container">
+        <div class="shadow p-3 sidebar">
+          <h5 class="text-center">Categorias</h5>
+          <ul>
+            <li>Programação</li>
+            <li>Estudo</li>
+          </ul>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique maiores quasi odit assumenda minima doloribus beatae, sed fugiat ab mollitia magnam iure saepe animi sapiente earum. Totam placeat enim sequi.</p>
+        </div>
       </div>
     </div>
-  </div>
-
-<!-- Cards Blog -->
-
-  <div class="col-sm-9">
     
-    {% for post in site.posts %}
-
-      <div class="shadow p-3 mb-5 rounded container mb-4 card-blog">
-        <div class="row card-blog-row">
-          <a class="col-sm-4 imagem" style="background-image: url( {{post.caption.thumbnail}} );" href="{{ post.url }}" alt="Imagem de capa do card"></a>
-          <div class="col-sm-8">
-            <h5 class="titulo-card">
-              <a href="{{ post.url }}">{{ post.caption.title }}</a>
-            </h5>
-            <p class="descriçao">{{ post.caption.subtitle }}</p>
-            <hr>
-            <p class="data">{{ post.caption.data }}</p>
+  <!-- Cards Blog -->
+    
+    <div class="col-lg">
+      {% for post in site.posts %}
+        <div class="shadow p-3 mb-5 rounded container mb-4 card-blog">
+          <div class="row card-blog-row">
+            <a class="col-sm-4 imagem" style="background-image: url(assets/img/capa-site.png);" href="" alt="Imagem de capa do card"></a>
+            <div class="col-sm-8">
+              <h5 class="titulo-card">
+                <a href="{{ post.url }}">{{ post.caption.title }}</a>
+              </h5>
+              <p class="descriçao">{{ post.caption.subtitle }}</p>
+              <hr>
+              <p class="data">{{ post.caption.data }}</p>
+            </div>
           </div>
-        </div>
-      </div>  
-
+        </div>  
       {% endfor %}
-
     </div>
-  </div>
-</div>
 
+</div>

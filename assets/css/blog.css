@@ -1,6 +1,6 @@
 /* cards */
 
-.pagina-blog-row {
+.pagina-blog {
   margin: 15px;
 }
 
@@ -18,7 +18,7 @@
 }
 
 .imagem {
-  min-height: 14rem;
+  min-height: 12rem;
   width: 30%;
   max-width: 100%;
   background-size: cover;
@@ -33,13 +33,51 @@
   margin-top: 10px;
 }
 
-.titulo-card a {
-  text-decoration: none;
-}
-
 @media(max-width:560px) {
   .imagem {
     width: 100%;
+  }
+}
+
+/* carrossel */
+
+.carrossel {
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+  height: 400px;
+}
+
+.texto-capa {
+  padding-top: 125px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.texto-capa p {
+  font-size: 20px;
+  text-align: center;
+}
+
+.texto-capa h1 {
+  font-size: 35px;
+  text-align: center ;
+}
+
+@media(min-width:560px) {
+
+  .texto-capa {
+    padding-top: 120px;
+  }
+
+  .texto-capa p {
+    font-size: 25px;
+  }
+
+  .texto-capa h1 {
+    font-size: 45px;
   }
 }
 
@@ -53,4 +91,16 @@
   padding: 1.25rem;
   background: #E4E4E4;
   color: #333;
+}
+
+@media(min-width:992px) {
+  .sidebar-container {
+    max-width: 250px;
+  }
+}
+
+@media(min-width:1440px) {
+  .sidebar-container {
+    max-width: 450px;
+  }
 }
