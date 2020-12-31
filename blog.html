@@ -7,7 +7,7 @@ title: Blog PET-Inf 3.2
 
 <div class="jumbotron jumbotron-fluid jblog">
   <div class="container">
-    <h1 class="display-4">{{ post.caption.title }}</h1>
+    <h1 class="display-4"></h1>
     <hr>
     <p class="lead">Acompanhe nossas publicações!</p>
   </div>
@@ -46,7 +46,7 @@ title: Blog PET-Inf 3.2
             <h6>{{ tag[0] }}</h6>
               <ul>
                 {% for post in tag[1] %}
-                <li><a class="tag-text" href="{{ post.url }}">{{ post.title }}</a></li>
+                <li><a class="texto-tg" href="{{ post.url }}">{{ post.title }}</a></li>
                 {% endfor %}
               </ul>
           {% endfor %}
