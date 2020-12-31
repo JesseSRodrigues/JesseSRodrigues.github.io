@@ -18,6 +18,7 @@ url    : "https://jessesrodrigues.github.io/" # the base hostname & protocol for
 baseurl: "" # the subpath of your site, e.g. /blog
 
 title      : PET-Informática
+logo       : /assets/img/logo_PET.png
 email      : your-email@example.com #this is also the email contact forms will go to
 description: "Novo site oficial do PET-Informática/PUCRS"
 author     : Your Name
