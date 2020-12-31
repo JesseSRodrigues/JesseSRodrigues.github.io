@@ -19,7 +19,7 @@ title: Blog PET-Inf 3.2
   <!-- Cards Blog -->
   
   <div class="col-lg">
-    {% for post in site.posts %}
+    {% for post in paginator.posts %}
         <div class="shadow p-3 mb-5 rounded container mb-4 card-blog">
           <div class="row card-blog-row">
             <a class="col-sm-4 imagem" style="background-image: url(assets/img/capa-site.png);" href="" alt="Imagem de capa do card"></a>
@@ -57,28 +57,21 @@ title: Blog PET-Inf 3.2
   
 </div>
 
-{% if paginator.total_pages > 1 %}
+<!-- Pagination links -->
 <div class="pagination">
   {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path | relative_url }}">&laquo; Prev</a>
+    <a href="{{ paginator.previous_page_path }}" class="previous">
+      Previous
+    </a>
   {% else %}
-    <span>&laquo; Prev</span>
+    <span class="previous">Previous</span>
   {% endif %}
-
-  {% for page in (1..paginator.total_pages) %}
-    {% if page == paginator.page %}
-      <em>{{ page }}</em>
-    {% elsif page == 1 %}
-      <a href="{{ '/' | relative_url }}">{{ page }}</a>
-    {% else %}
-      <a href="{{ site.paginate_path | relative_url | replace: ':num', page }}">{{ page }}</a>
-    {% endif %}
-  {% endfor %}
-
+  <span class="page_number ">
+    Page: {{ paginator.page }} of {{ paginator.total_pages }}
+  </span>
   {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path | relative_url }}">Next &raquo;</a>
+    <a href="{{ paginator.next_page_path }}" class="next">Next</a>
   {% else %}
-    <span>Next &raquo;</span>
+    <span class="next ">Next</span>
   {% endif %}
 </div>
-{% endif %}
