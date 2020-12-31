@@ -111,7 +111,7 @@
 
 @media(min-width:992px) {
   .sidebar-container {
-    max-width: 250px;
+    max-width: 290px;
   }
 }
 
@@ -119,6 +119,11 @@
   .sidebar-container {
     max-width: 450px;
   }
+}
+
+.tag-text {
+  text-decoration: none;
+  color:rgba(255,255,255,.5);
 }
 
 /* post */
