@@ -33,7 +33,7 @@ collections:
   portfolio:
 
 paginate: 3
-paginate_path: "/page:num/"
+paginate_path: "https://jessesrodrigues.github.io/blog/page:num/"
 
 markdown: kramdown
 
