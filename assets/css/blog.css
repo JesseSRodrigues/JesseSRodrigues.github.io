@@ -1,6 +1,12 @@
+/* nav-header */
+
+.navheader {
+  margin-top: 110px;
+}
+
 /* header-blog */
 
-.header-blog {
+.jblog {
   margin-top: 110px;
 }
 
@@ -117,6 +123,6 @@
 
 /* post */
 
-.post-container {
-    margin-top: 110px;
+.postcont {
+  margin-top: 110px;
 }
