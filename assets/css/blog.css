@@ -33,6 +33,10 @@
   margin-top: 10px;
 }
 
+.titulo-card a {
+  text-decoration: none;
+}
+
 @media(max-width:560px) {
   .imagem {
     width: 100%;
