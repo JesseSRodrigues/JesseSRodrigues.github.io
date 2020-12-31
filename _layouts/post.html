@@ -3,14 +3,47 @@ layout: default
 ---
 {% include nav.html %}
 
-<div class="container postcont">
-  <div class="row">
-    <div class="col-sm-12">
-      <h1>{{ site.post.caption.title }}</h1>
-      <h6>{{ post.caption.subtitle }}</h6>
-      <p style="text-align: justify;">{{ content }}</p>
+<!-- Header -->
+
+<div class="jumbotron jumbotron-fluid jblog">
+  <div class="container">
+    <h1 class="display-4">{{ site.post.caption.title }}</h1>
+    <hr>
+    <p class="lead">{{ post.caption.subtitle }}</p>
+  </div>
+</div>
+
+<div class="row pagina-blog">  
+
+  <!-- Sidebar -->
+  
+  <div class="col-lg sidebar-container">
+    <div class="container">
+      <div class="shadow p-3 sidebar">
+        <h5 class="text-center">Categorias</h5>
+        {% for tag in site.tags %}
+          <h4>{{ tag[0] }}</h4>
+            <ul>
+              {% for post in tag[1] %}
+              <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+              {% endfor %}
+            </ul>
+        {% endfor %}
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique maiores quasi odit assumenda minima doloribus beatae, sed fugiat ab mollitia magnam iure saepe animi sapiente earum. Totam placeat enim sequi.</p>
+      </div>
     </div>
   </div>
+
+
+  <!-- post-content -->
+
+  <div class="container postcont">
+
+
+        <p style="text-align: justify;">{{ content }}</p>
+
+  </div>
+
 </div>
 
 
