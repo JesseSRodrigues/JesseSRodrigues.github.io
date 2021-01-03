@@ -29,7 +29,12 @@ title: Blog PET-Inf 3.2
               </h5>
               <p class="descriçao">{{ post.caption.subtitle }}</p>
               <hr>
-              <p class="data">{{ post.caption.data }}</p>
+              <div class="tags-data">
+                {% for tag in site.tags %}
+                  <p class="tags">{{ tag[0] }}</p>
+                {% endfor %}
+                <p class="data">{{ post.caption.data }}</p>
+              </div>
             </div>
           </div>
         </div>  
