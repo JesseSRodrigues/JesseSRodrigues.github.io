@@ -15,7 +15,7 @@
 remote_theme: raviriley/agency-jekyll-theme
 
 url    : "https://jessesrodrigues.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "https://jessesrodrigues.github.io/blog" # the subpath of your site, e.g. /blog
 
 title      : PET-Informática
 logo       : /assets/img/logo_PET.png
