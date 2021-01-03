@@ -84,6 +84,9 @@
   text-align: end;
   font-family: 'Montserrat';
   font-size: 15px;
+  position: absolute;
+  bottom: 0;
+  right: 15px;
 }
 
 /* carrossel */
