@@ -31,7 +31,9 @@ title: Blog PET-Inf 3.2
               <hr>
               <div class="tg-data">
                 {% for tag in post.tags %}
+                  {% for post in tag[1] %}
                   <p class="tg">{{ tag[0] }}</p>
+                  {% endfor %}
                 {% endfor %}
                 <p>{{ post.caption.data }}</p>
               </div>
