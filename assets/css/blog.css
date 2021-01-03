@@ -56,16 +56,16 @@
   font-size: 30px;
 }
 
-.descricao-card {
+.desc-card {
   padding-bottom: 25px;
 }
 
 .card-tg-data {
   display: flex;
-  justify-content: flex-end;
   color: #b7b9c2;
-  position: relative;
-  bottom: 10px;
+  position: absolute;
+  bottom: 0;
+  right: 15px;
 }
 
 .card-tg::after {
@@ -84,9 +84,6 @@
   text-align: end;
   font-family: 'Montserrat';
   font-size: 15px;
-  position: absolute;
-  bottom: 0;
-  right: 15px;
 }
 
 /* carrossel */
