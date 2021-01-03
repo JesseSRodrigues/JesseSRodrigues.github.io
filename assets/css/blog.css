@@ -56,6 +56,10 @@
   font-size: 30px;
 }
 
+.descricao-card {
+  padding-bottom: 25px;
+}
+
 .card-tg-data {
   display: flex;
   justify-content: flex-end;
