@@ -19,6 +19,7 @@
 .card-blog {
   transition-timing-function: ease;
   transition-duration: 0.4s;
+  border-radius: 10px 0 0 10px;
 }
 
 .card-blog-row {
@@ -37,7 +38,7 @@
   border-radius: 10px 0 0 10px;
 }
 
-@media(max-width:560px) {
+@media(max-width:575px) {
   .imagem {
     width: 100%;
     border-radius: 10px 10px 0 0;
