@@ -27,13 +27,13 @@ title: Blog PET-Inf 3.2
               <h5 class="titulo-card">
                 <a href="{{ post.url }}">{{ post.caption.title }}</a>
               </h5>
-              <p class="descriçao">{{ post.caption.subtitle }}</p>
+              <p class="descriçao-card">{{ post.caption.subtitle }}</p>
               <hr>
-              <div class="tg-data">
+              <div class="card-tg-data">
                 {% for tag in post.tags %}
-                  <p class="tg">{{ tags[0] }}</p>
+                  <p class="card-tg">{{ tags[0] }}</p>
                 {% endfor %}
-                <p>{{ post.caption.data }}</p>
+                <p class="card-data">{{ post.caption.data }}</p>
               </div>
             </div>
           </div>
@@ -51,7 +51,7 @@ title: Blog PET-Inf 3.2
             <h6>{{ tag[0] }}</h6>
               <ul>
                 {% for post in tag[1] %}
-                <li><a class="texto-tg" href="{{ post.url }}">{{ post.title }}</a></li>
+                <li><a class="texto-tg" style="text-decoration: none;" href="{{ post.url }}">{{ post.title }}</a></li>
                 {% endfor %}
               </ul>
           {% endfor %}
