@@ -22,7 +22,9 @@ title: Blog PET-Inf 3.2
     {% for post in site.posts %}
         <div class="shadow p-3 mb-4 container card-blog">
           <div class="row card-blog-row">
-            <a class="col-sm-4 imagem" style="background-image: url(assets/img/capa-site.png);" href="" alt="Imagem de capa do card"></a>
+            <figure class="col-sm-4 figura">
+              <img class="imagem" src="{{ post.caption.thumbnail }}" alt="Imagem de capa do card">
+            </figure>
             <div class="col-sm-8">
               <h5 class="titulo-card">
                 <a href="{{ post.url }}">{{ post.caption.title }}</a>

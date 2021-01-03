@@ -19,22 +19,25 @@
 .card-blog {
   transition-timing-function: ease;
   transition-duration: 0.4s;
-  border-radius: 10px 0 0 10px;
+  border-radius: 10px;
 }
 
 .card-blog-row {
-  padding: 0 15px;
+  padding: 0;
 }
 
 .card-blog:hover {
   background-color: rgb(240, 240, 240);
 }
 
+.figura {
+  margin: 0;
+}
+
 .imagem {
   min-height: 12rem;
   max-width: 100%;
-  background-size: cover;
-  background-position: 50% 50%;
+  object-fit: cover;
   border-radius: 10px 0 0 10px;
 }
 
@@ -42,6 +45,7 @@
   .imagem {
     width: 100%;
     border-radius: 10px 10px 0 0;
+    object-fit: cover;
   }
 }
 
