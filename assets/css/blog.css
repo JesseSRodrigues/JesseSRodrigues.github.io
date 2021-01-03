@@ -55,7 +55,7 @@
   }
 }
 
-.tags-data {
+.tg-data {
   display: flex;
   justify-content: flex-end;
   color: #b7b9c2;
@@ -63,7 +63,7 @@
   bottom: 10px;
 }
 
-.tags::after {
+.tg::after {
   content: "";
   position: relative;
   bottom: 0.25rem;
