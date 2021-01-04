@@ -31,13 +31,13 @@
 }
 
 .imagem {
-  height: 12rem;
+  height: 14rem;
   width: 100%;
   object-fit: cover;
   border-radius: 10px 0 0 10px;
 }
 
-@media(max-width:575px) {
+@media(max-width:991px) {
   .imagem {
     width: 100%;
     border-radius: 10px 10px 0 0;
@@ -55,7 +55,8 @@
   color: #b7b9c2;
   font-family: 'Montserrat';
   display: inline-block;
-  margin-left: 4px;
+  margin-right: 4px;
+  margin-top: 4px;
 }
 
 .titulo-card {
@@ -83,6 +84,7 @@
   padding: 0;
   position: absolute;
   bottom: 0;
+  right: 125px;
 }
 
 .lista-redes {
