@@ -101,7 +101,7 @@
   vertical-align: -.0667em;
 }
 
-.card-tg::after {
+.lista-data::after {
   content: "";
   position: relative;
   bottom: 0.25rem;
@@ -113,14 +113,12 @@
   background-color: #b7b9c2;
 }
 
-.card-data {
+.lista-data {
   font-family: 'Montserrat';
   font-size: 15px;
-  position: absolute;
-  bottom: 0;
-  right: 20px;
-  margin-bottom: 0;
   color: #b7b9c2;
+  display: inline-block;
+  vertical-align: text-top;
 }
 
 /* carrossel */
