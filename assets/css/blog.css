@@ -63,9 +63,19 @@
 .card-tg-data {
   display: flex;
   color: #b7b9c2;
+}
+
+.lista {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
   position: absolute;
   bottom: 0;
-  right: 15px;
+}
+
+.lista-redes {
+  display: inline-block;
+  margin-left: 4px;
 }
 
 .card-tg::after {
@@ -81,9 +91,12 @@
 }
 
 .card-data {
-  text-align: end;
   font-family: 'Montserrat';
   font-size: 15px;
+  position: absolute;
+  bottom: 0;
+  right: 15px;
+  margin-bottom: 0;
 }
 
 /* carrossel */

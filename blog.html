@@ -32,9 +32,17 @@ title: Blog PET-Inf 3.2
               <hr>
               <p class="desc-card">{{ post.caption.subtitle }}</p>
               <div class="card-tg-data">
-                {% for tag in post.tags %}
-                  <p class="card-tg">{{ tags[0] }}</p>
-                {% endfor %}
+                <ul class="lista">
+                  <li class="lista-redes">
+                    <i class="fab fa-facebook-square"></i>
+                  </li>
+                  <li class="lista-redes">
+                    <i class="fab fa-linkedin"></i>
+                  </li>                    
+                  <li class="lista-redes">
+                    <i class="fab fa-instagram-square"></i>
+                  </li>
+                </ul>
                 <p class="card-data">{{ post.caption.data }}</p>
               </div>
             </div>
