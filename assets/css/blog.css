@@ -84,7 +84,7 @@
   padding: 0;
   position: absolute;
   bottom: 0;
-  right: 125px;
+  right: 20px;
 }
 
 .lista-redes {
@@ -101,7 +101,7 @@
   vertical-align: -.0667em;
 }
 
-.lista-data::after {
+.lista-data::before {
   content: "";
   position: relative;
   bottom: 0.25rem;
