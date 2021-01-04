@@ -26,7 +26,7 @@ title: Blog PET-Inf 3.2
               <img class="imagem" src="{{ post.caption.thumbnail }}" alt="Imagem de capa do card">
             </figure>
             <div class="col-sm-8">
-              {% for tag in post.tags %}
+              {% for tag in page.tags %}
               <h6>{{ tag[0] }}</h6> 
               {% endfor %}
               <h5 class="titulo-card">
