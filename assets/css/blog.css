@@ -62,7 +62,6 @@
 
 .card-tg-data {
   display: flex;
-  color: #b7b9c2;
 }
 
 .lista {
@@ -97,6 +96,7 @@
   bottom: 0;
   right: 15px;
   margin-bottom: 0;
+  color: #b7b9c2;
 }
 
 /* carrossel */
