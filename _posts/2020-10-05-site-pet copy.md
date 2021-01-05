@@ -1,13 +1,10 @@
 ---
 title: Site PET-Inf
 subtitle: Novo site de divulgação dos projetos.
-image: https://raw.githubusercontent.com/JesseSRodrigues/JesseSRodrigues.github.io/master/assets/img/Tela_Site2.jpg
-alt:
 
-caption:
-  title: Site PET-Inf
+
+
   data: 05 Out, 2020
-  subtitle: Novo Site Oficial
   thumbnail: https://raw.githubusercontent.com/JesseSRodrigues/JesseSRodrigues.github.io/master/assets/img/capa-site.png
 
 text: <p align="justify">Como parte do projeto de divulgação do PET-Informática, a criação do novo site também é um trabalho que envolve os integrantes do grupo, pois trabalha diversas ferramentas essenciais em diferentes profissões na área de tecnologia.</p>
