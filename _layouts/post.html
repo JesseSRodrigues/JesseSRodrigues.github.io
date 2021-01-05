@@ -10,6 +10,18 @@ layout: default
     <h1>{{ page.title }}</h1>
     <hr>
     <p>{{ page.subtitle }}</p>
+    <ul class="lista">
+      <li class="lista-redes">
+        <a href=""><i class="fab fa-facebook-square fa-lg" style="color: #4267B2;;"></i></a>
+      </li>
+      <li class="lista-redes">
+        <a href=""><i class="fab fa-linkedin fa-lg" style="color: #0072b1;"></i></a>
+      </li>                    
+      <li class="lista-redes">
+        <a href=""><i class="fab fa-instagram instagram"></i></a>
+      </li>
+      <li class="lista-data">{{ post.data }}</li> 
+    </ul> 
   </div>
 </div>
 
@@ -21,5 +33,5 @@ layout: default
   <div class="col-lg">
     <p style="text-align: justify;">{{ content }}</p>
   </div>
-  
+
 </div>
