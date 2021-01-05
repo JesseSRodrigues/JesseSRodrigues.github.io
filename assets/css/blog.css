@@ -195,6 +195,7 @@
 
 .pagina-post {
   overflow: hidden;
+  text-align: justify;
 }
 
 @media (min-width: 992px) {
@@ -209,4 +210,17 @@
   margin: 0;
   padding: 0;
   position: absolute;
+}
+
+.imagem-post {
+  text-align: center;
+  overflow: hidden;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.img-post {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
 }
