@@ -23,7 +23,7 @@ title: Blog PET-Inf 3.2
         <div class="shadow p-3 mb-4 container card-blog">
           <div class="row card-blog-row">
             <figure class="col-lg-4 figura">
-              <img class="imagem" src="{{ post.caption.thumbnail }}" alt="Imagem de capa do card">
+              <img class="imagem" src="{{ post.thumbnail }}" alt="Imagem de capa do card">
             </figure>
             <div class="col-lg-8">
               <ul class="lista-tg">
@@ -33,9 +33,9 @@ title: Blog PET-Inf 3.2
               </ul>
               <hr style="margin-top: 0; margin-bottom: 0;">
               <h5 class="titulo-card">
-                <a href="{{ post.url }}">{{ post.caption.title }}</a>
+                <a href="{{ post.url }}">{{ post.title }}</a>
               </h5>
-              <p class="desc-card">{{ post.caption.subtitle }}</p>
+              <p class="desc-card">{{ post.subtitle }}</p>
               <div class="card-tg-data">
                 <ul class="lista">
                   <li class="lista-redes">
@@ -47,7 +47,7 @@ title: Blog PET-Inf 3.2
                   <li class="lista-redes">
                     <a href=""><i class="fab fa-instagram instagram"></i></a>
                   </li>
-                  <li class="lista-data">{{ post.caption.data }}</li> 
+                  <li class="lista-data">{{ post.data }}</li> 
                 </ul>               
               </div>
             </div>
