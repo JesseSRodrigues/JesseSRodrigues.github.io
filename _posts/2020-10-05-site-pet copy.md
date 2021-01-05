@@ -4,8 +4,8 @@ subtitle: Novo site de divulgação dos projetos.
 
 
 
-  data: 05 Out, 2020
-  thumbnail: https://raw.githubusercontent.com/JesseSRodrigues/JesseSRodrigues.github.io/master/assets/img/capa-site.png
+data: 05 Out, 2020
+thumbnail: https://raw.githubusercontent.com/JesseSRodrigues/JesseSRodrigues.github.io/master/assets/img/capa-site.png
 
 text: <p align="justify">Como parte do projeto de divulgação do PET-Informática, a criação do novo site também é um trabalho que envolve os integrantes do grupo, pois trabalha diversas ferramentas essenciais em diferentes profissões na área de tecnologia.</p>
 
