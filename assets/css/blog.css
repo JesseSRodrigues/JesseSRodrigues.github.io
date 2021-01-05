@@ -193,6 +193,6 @@
 
 /* post */
 
-.postcont {
-  margin-top: 110px;
+.pagina-post {
+  overflow: hidden;
 }
