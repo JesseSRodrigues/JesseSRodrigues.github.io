@@ -40,7 +40,7 @@ plugins:
 pagination:
  enabled: true # Habilita a paginação
  per_page: 3 # Quantidade de postagens por página
- permalink: '/blog/page/:num/' # URL que será exibido ao navegar entre as página
+ permalink: '/page/:num/' # URL que será exibido ao navegar entre as página
  sort_reverse: true # Habilita a opção de voltar à página anterior
  sort_field: 'date' # Filtra a paginação de acordo com a data de publicação das postagens
  title: 'Página :num' # Nome de exibição que será carregado no <title> do blog
