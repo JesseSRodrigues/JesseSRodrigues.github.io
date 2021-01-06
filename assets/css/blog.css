@@ -210,6 +210,7 @@
 .pagina-post {
   overflow: hidden;
   text-align: justify;
+  margin-bottom: 20px;
 }
 
 @media (min-width: 992px) {
