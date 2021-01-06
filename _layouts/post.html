@@ -22,21 +22,32 @@ layout: default
 
     {{ content }}
 
-    <hr>
-    <ul class="lista-redes-post">
-    {% for tag in page.tags %}
-      <li class="lista-tg-li"><i class="fas fa-tag"></i> {{ tag }}</li>
-    {% endfor %}
-      <li class="lista-redes">
-        <a href=""><i class="fab fa-facebook-square fa-lg" style="color: #4267B2;;"></i></a>
-      </li>
-      <li class="lista-redes">
-        <a href=""><i class="fab fa-linkedin fa-lg" style="color: #0072b1;"></i></a>
-      </li>                    
-      <li class="lista-redes">
-        <a href=""><i class="fab fa-instagram instagram"></i></a>
-      </li>
-    </ul> 
-  </div>
+    <footer class="post-footer">
+      <figure class="img-pet">
+        <img src="assets/img/capa-site.png" alt="">
+      </figure>
+      <div class="row" style="justify-content: space-around;">
+        <div class="autores">
+          <p style="color: #b7b9c2; font-family: 'Montserrat';">Escrito por:</p>
+          {% for autor in page.autores %}
+          <h5 style="font-family: 'Montserrat'; font-size: 1rem;">{{ page.autor }}</h5>
+          {% endfor %}
+        </div>
+        <div class="share">
+          <p style="color: #b7b9c2; font-family: 'Montserrat';">Compartilhe:</p>
+          <ul class="lista-redes-footer">
+            <li class="lista-redes">
+              <a href=""><i class="fab fa-facebook-square fa-lg" style="color: #4267B2;;"></i></a>
+            </li>
+            <li class="lista-redes">
+              <a href=""><i class="fab fa-linkedin fa-lg" style="color: #0072b1;"></i></a>
+            </li>                    
+            <li class="lista-redes">
+              <a href=""><i class="fab fa-instagram instagram"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
   
 </div>
