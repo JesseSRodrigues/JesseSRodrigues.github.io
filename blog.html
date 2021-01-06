@@ -55,25 +55,6 @@ title: Blog PET-Informática
         </div>  
       {% endfor %}
     </div>
-    
-    <!-- Sidebar -->
-
-    <div class="col-xl sidebar-container">
-      <div class="container">
-        <div class="shadow p-3 sidebar">
-          <h5 class="text-center">Categorias</h5>
-          {% for tag in site.tags %}
-            <h6>{{ tag[0] }}</h6>
-              <ul>
-                {% for post in tag[1] %}
-                <li><a class="texto-tg" style="text-decoration: none;" href="{{ post.url }}">{{ post.title }}</a></li>
-                {% endfor %}
-              </ul>
-          {% endfor %}
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique maiores quasi odit assumenda minima doloribus beatae, sed fugiat ab mollitia magnam iure saepe animi sapiente earum. Totam placeat enim sequi.</p>
-        </div>
-      </div>
-    </div>
   
 </div>
 
