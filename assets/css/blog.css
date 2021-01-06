@@ -82,9 +82,14 @@
   list-style-type: none;
   margin: 0;
   padding: 0;
-  position: absolute;
-  bottom: 0;
-  right: 20px;
+}
+
+@media(min-width:992px) {
+  .lista {
+    position: absolute;
+    bottom: 0;
+    right: 20px;
+  }
 }
 
 .lista-redes {
@@ -101,16 +106,18 @@
   vertical-align: -.0667em;
 }
 
-.lista-data::before {
-  content: "";
-  position: relative;
-  bottom: 0.25rem;
-  display: inline-block;
-  height: 3px;
-  width: 3px;
-  margin: 0 .5rem 0 .5rem;
-  border-radius: 50%;
-  background-color: #b7b9c2;
+@media(min-width:992px) {
+  .lista-data::before {
+    content: "";
+    position: relative;
+    bottom: 0.25rem;
+    display: inline-block;
+    height: 3px;
+    width: 3px;
+    margin: 0 .5rem 0 .5rem;
+    border-radius: 50%;
+    background-color: #b7b9c2;
+  }
 }
 
 .lista-data {
@@ -119,6 +126,13 @@
   color: #b7b9c2;
   display: inline-block;
   vertical-align: text-top;
+}
+
+@media(max-width:991px) {
+  .lista-data {
+    position: absolute;
+    right: 20px;
+  }
 }
 
 /* carrossel */
