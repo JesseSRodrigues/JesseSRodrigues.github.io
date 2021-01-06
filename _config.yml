@@ -32,11 +32,18 @@ analytics:
 collections:
   portfolio:
 
-paginate: 3
-paginate_path: "/page:num/"
-
 markdown: kramdown
 
 plugins:
   - jekyll-remote-theme
-  - jekyll-paginate
+  
+pagination:
+ enabled: true # Habilita a paginação
+ per_page: 3 # Quantidade de postagens por página
+ permalink: '/blog/page/:num/' # URL que será exibido ao navegar entre as página
+ sort_reverse: true # Habilita a opção de voltar à página anterior
+ sort_field: 'date' # Filtra a paginação de acordo com a data de publicação das postagens
+ title: 'Página :num' # Nome de exibição que será carregado no <title> do blog
+ trail:
+   before: 2 # Exibe o número de postagens a esquerda
+   after: 2 # Exibe o número de postagens a direita
