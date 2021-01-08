@@ -36,6 +36,8 @@ markdown: kramdown
 
 plugins:
   - jekyll-remote-theme
+
+gems:
   - jekyll-paginate-v2
   
 pagination:
