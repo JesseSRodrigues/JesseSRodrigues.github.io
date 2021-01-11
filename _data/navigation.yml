@@ -7,7 +7,7 @@ nav:
     section: portfolio
 
   - title: "História"
-    section: timeline
+    url: https://jessesrodrigues.github.io/historia
 
   - title: "Membros"
     section: team
