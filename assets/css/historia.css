@@ -1,0 +1,9 @@
+.secao-memoria {
+  margin: 15px;
+}
+
+@media (min-width: 1440px) {
+  .secao-memoria {
+    padding: 0 150px 0 150px;
+  }
+}
