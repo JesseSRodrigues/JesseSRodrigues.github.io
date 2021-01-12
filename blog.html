@@ -27,7 +27,7 @@ title: Blog
       <a class="list-group-item list-group-item-action" id="list-eventos-list" data-toggle="list" href="#list-eventos" role="tab" aria-controls="eventos">Eventos</a>
       {% for tag in site.tags %}
       {% assign var = 0 %}
-      <a class="list-group-item list-group-item-action" id="list-tag{{ var }}-list" data-toggle="list" href="#list-tag{{ var }}" role="tab" aria-controls="tag{{ var }}"></a>
+      <a class="list-group-item list-group-item-action" id="list-{{ tag[var] }}-list" data-toggle="list" href="#list-{{ tag[var] }}" role="tab" aria-controls="{{ tag[var] }}"></a>
       {% increment var %}
       {% endfor %}
     </div>
