@@ -21,11 +21,6 @@ title: Blog
   <div class="col-sm-3">
     <div class="list-group" id="list-tab" role="tablist">
       <a class="list-group-item list-group-item-action active" id="list-todos-list" data-toggle="list" href="#list-todos" role="tab" aria-controls="todos">Todos</a>
-      <a class="list-group-item list-group-item-action" id="list-projetos-list" data-toggle="list" href="#list-projetos" role="tab" aria-controls="projetos">Projetos</a>
-      <a class="list-group-item list-group-item-action" id="list-tutores-list" data-toggle="list" href="#list-tutores" role="tab" aria-controls="tutores">Tutores</a>
-      <a class="list-group-item list-group-item-action" id="list-petianos-list" data-toggle="list" href="#list-petianos" role="tab" aria-controls="petianos">Petianos</a>
-      <a class="list-group-item list-group-item-action" id="list-eventos-list" data-toggle="list" href="#list-eventos" role="tab" aria-controls="eventos">Eventos</a>
-      {% assign var = 0 %}
       {% for tag in site.tags %}
       <a class="list-group-item list-group-item-action" id="list-tag{{ forloop.index }}-list" data-toggle="list" href="#list-tag{{ forloop.index }}" role="tab" aria-controls="tag{{ forloop.index }}">{{ tag[0] }}</a>
       {% endfor %}
@@ -81,46 +76,6 @@ title: Blog
         <!-- fim-todos -->
 
       </div>     
-      <div class="tab-pane fade" id="list-projetos" role="tabpanel" aria-labelledby="list-projetos-list">
-        <!-- teste -->
-        <div class="shadow p-3 mb-4 container card-blog">
-          <div class="row card-blog-row">
-            <figure class="col-lg-4 figura">
-              <a href="/2020/11/02/enadeapp.html"><img class="imagem" src="assets/img/capa-enadeapp.png" alt="Imagem de capa do card">
-              </a>
-            </figure>
-            <div class="col-lg-8">
-              <ul class="lista-tg">
-                
-                <li class="lista-tg-li">programação</li>
-                
-              </ul>
-              <hr style="margin-top: 0; margin-bottom: 0;">
-              <h5 class="titulo-card">
-                <a href="/2020/11/02/enadeapp.html">GitHub e suas funcionalidades</a>
-              </h5>
-              <p class="desc-card">Saiba como usar essa ferramenta para guardar e compartilhar seus projetos!</p>
-              <div class="card-tg-data">
-                <ul class="lista">
-                  <li class="lista-redes">
-                    <a href=""><i class="fab fa-facebook-square fa-lg" style="color: #4267B2;;"></i></a>
-                  </li>
-                  <li class="lista-redes">
-                    <a href=""><i class="fab fa-linkedin fa-lg" style="color: #0072b1;"></i></a>
-                  </li>                    
-                  <li class="lista-redes">
-                    <a href=""><i class="fab fa-twitter-square fa-lg"></i></a>
-                  </li>
-                  <li class="lista-data">28 Set, 2020</li> 
-                </ul>               
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- fim-teste -->
-      </div>
-      <div class="tab-pane fade" id="list-tutores" role="tabpanel" aria-labelledby="list-tutores-list">.</div>
-      <div class="tab-pane fade" id="list-petianos" role="tabpanel" aria-labelledby="list-petianos-list">...</div>
 
       {% for tag in site.tags %}
         <div class="tab-pane fade" id="list-tag{{ forloop.index }}" role="tabpanel" aria-labelledby="list-tag{{ forloop.index }}-list">
