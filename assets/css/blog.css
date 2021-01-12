@@ -14,6 +14,12 @@
   margin: 15px;
 }
 
+@media (min-width: 1440px) {
+  .pagina-blog {
+    padding: 0 150px 0 150px;
+  }
+}
+
 /* cards */
 
 .card-blog {
