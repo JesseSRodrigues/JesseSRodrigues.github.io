@@ -122,10 +122,10 @@ title: Blog
       <div class="tab-pane fade" id="list-tutores" role="tabpanel" aria-labelledby="list-tutores-list">.</div>
       <div class="tab-pane fade" id="list-petianos" role="tabpanel" aria-labelledby="list-petianos-list">...</div>
 
-      {% for post in site.posts %}
-      
-      <div class="tab-pane fade" id="list-tag{{ forloop.index }}" role="tabpanel" aria-labelledby="list-tag{{ forloop.index }}-list">
+      {% for tag in site.tags %}
+        <div class="tab-pane fade" id="list-tag{{ forloop.index }}" role="tabpanel" aria-labelledby="list-tag{{ forloop.index }}-list">
 
+        {% for post in site.posts %} 
           <div class="shadow p-3 mb-4 container card-blog">
             <div class="row card-blog-row">
               <figure class="col-lg-4 figura">
@@ -161,7 +161,8 @@ title: Blog
             </div>
           </div>  
         {% endfor %}
-
+        
+      {% endfor %}
     </div>
   </div>
 
