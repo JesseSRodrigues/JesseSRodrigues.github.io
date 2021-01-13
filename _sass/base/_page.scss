@@ -69,3 +69,10 @@ img::selection {
 img::-moz-selection {
   background: transparent;
 }
+
+.list-group-item {
+  &.active {
+    background-color: #e9ecef;
+    border-color: #e9ecef;
+  }
+}

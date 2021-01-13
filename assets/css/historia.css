@@ -7,8 +7,3 @@
     padding: 0 150px 0 150px;
   }
 }
-
-.list-group-item.active {
-    background-color: #e9ecef;
-    border-color: #e9ecef;
-}
