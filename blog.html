@@ -19,7 +19,8 @@ title: Blog
   <!-- Navbar e Cards Blog -->
 
   <div class="col-sm-3">
-    <div class="list-group" id="list-tab" role="tablist">
+    <div class="list-group list-group-flush" id="list-tab" role="tablist">
+      <h3 style="text-align: center; font-weight: 100;">Categorias</h3>
       <a class="list-group-item list-group-item-action active" id="list-todos-list" data-toggle="list" href="#list-todos" role="tab" aria-controls="todos">Todos</a>
       {% for tag in site.tags %}
       <a class="list-group-item list-group-item-action" id="list-tag{{ forloop.index }}-list" data-toggle="list" href="#list-tag{{ forloop.index }}" role="tab" aria-controls="tag{{ forloop.index }}">{{ tag[0] }}</a>
