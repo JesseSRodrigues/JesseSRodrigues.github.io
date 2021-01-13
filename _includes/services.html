@@ -19,33 +19,41 @@
             <i class="{{ service.icon | default: "fas fa-shopping-cart" }} fa-stack-1x fa-inverse"></i>
           </span>
           <h4 class="service-heading">{{ service.title | markdownify }}</h4>
-          {% if service.desc %}<div class="text-muted">{{ service.desc | markdownify }}</div>{% endif %}
-          {% if service.button %} <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="{{ service.buttonlink }}">{{ service.button }}</a>
-	  {%- endif -%}
+          {% if service.desc %}
+          <div class="text-muted">{{ service.desc | markdownify }}</div>
+          {% endif %}
+          {% if service.button %} 
+          <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="{{ service.buttonlink }}">{{ service.button }}</a>
+	        {%- endif -%}
         </div>
-    {% endfor %}
-      </div>
-      <!-- posts recentes -->
-      <div class="col-md-4">
-        <span class="fa-stack fa-4x">
-          <i class="fas fa-circle fa-stack-2x text-primary"></i>
-          <i class="{{ service.icon | default: "fas fa-shopping-cart" }} fa-stack-1x fa-inverse"></i>
-        </span>
-        <h4 class="service-heading">Posts Recentes</h4>
-        {% for post in site.posts limit:3 %}
-          <div class="posts-recentes">
-            <a class="posts-recentes-img" href="{{ post.url }}">
-              <img src="{{ post.thumbnail }}" alt="Imagem de capa do card">
-            </a>
-            <div class="recent-posts__content" style="text-align: justify;">
-              <div class="posts-recentes-data">
-                <p>{{ post.data }}</p>
+      {% endfor %}
+          <!-- posts recentes -->
+          <div class="col-md-4">
+            <span class="fa-stack fa-4x">
+              <i class="fas fa-circle fa-stack-2x text-primary"></i>
+              <i class="{{ service.icon | default: "fas fa-shopping-cart" }} fa-stack-1x fa-inverse"></i>
+            </span>
+            <h4 class="service-heading">Posts Recentes</h4>
+            
+            {% for post in site.posts limit:3 %}
+            <div class="posts-recentes">
+              <a class="posts-recentes-img" href="{{ post.url }}">
+                <img src="{{ post.thumbnail }}" alt="Imagem de capa do card">
+              </a>
+              <div class="recent-posts__content" style="text-align: justify;">
+                <div class="posts-recentes-data">
+                  <p>{{ post.data }}</p>
+                </div>
+                <h6 class="posts-recentes-titulo">
+                  <a class="posts-recentes-titulo-a" href="{{ post.url }}">{{ post.title }}<a>
+                </h6>
               </div>
-              <h6 class="posts-recentes-titulo">
-                <a class="posts-recentes-titulo-a" href="{{ post.url }}">{{ post.title }}</a>
-              </h6>
             </div>
+            {% endfor %}
           </div>
+
+      </div>
+    
       <!-- fim posts recentes -->
 
       <!--<div class="row">
@@ -57,8 +65,7 @@
       </div> -->
 	  
     </div>
-
-    {% endfor %}
+   
   </section>
 <!-- End Services -->
 
