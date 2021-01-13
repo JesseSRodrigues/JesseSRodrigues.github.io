@@ -37,7 +37,7 @@
             
             {% for post in site.posts limit:3 %}
             <div class="posts-recentes">
-              <a class="posts-recentes-img" href="{{ post.url }}" style="background-image: url(/{{post.thumbnail}});">
+              <a class="posts-recentes-img" href="{{ post.url }}">
                 <img src="{{ post.thumbnail }}" alt="Imagem de capa do card">
               </a>
               <div class="recent-posts__content" style="text-align: justify;">
