@@ -6,14 +6,14 @@ nav:
   - title: "Projetos"
     section: portfolio
 
-  - title: "História"
-    url: https://jessesrodrigues.github.io/historia
-
   - title: "Membros"
     section: team
 
-  - title: "Contato"
-    section: contact
+  - title: "História"
+    url: https://jessesrodrigues.github.io/historia
 
   - title: "Blog"
     url: https://jessesrodrigues.github.io/blog
+
+  - title: "Contato"
+    section: contact
