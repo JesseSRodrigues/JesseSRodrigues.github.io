@@ -30,7 +30,7 @@ title: História
       <!-- criação -->
       <div class="tab-pane fade show active" id="list-criacao" role="tabpanel" aria-labelledby="list-criacao-list">
 
-        <h2>Como tudo começou</h2>
+        <h2>Programa de Educação Tutorial</h2>
         <p>O PET Informática – Programa de Educação Tutorial – foi idealizado pelo Prof. Dr. Cláudio de Moura Castro e implantado pela CAPES em 1979, tendo em vista o melhor preparo dos alunos da graduação.</p>
         <p>Até 1996, o programa estava expandindo-se, porém a CAPES anunciou futuros cortes. No ano de 1997, o governo federal anunciou uma série de cortes na educação, devido a crise, que afetariam inclusive o programa. Desta forma, os bolsistas e tutores iniciaram mobilizações em prol do PET (InterPETs estaduais, SulPET, SudestePET e o encontro nacional dos grupos PET – ENAPET).</p>
         <p>A partir de 2000, o grupo passou a ser vinculado ao SESu/MEC, porém, neste mesmo período, as ameaças para a extinção do grupo eram grandes. Em 2003, o PET foi rediscutido com seus protagonistas: CENAPET (Comissão Executiva Nacional), SESu/MEC, FORGRAD (Fórum dos Pró-Reitores de Graduação das IES do Brasil). Hoje o PET conta com 3177 bolsistas de 298 grupo em todo Brasil.</p>
@@ -38,65 +38,11 @@ title: História
 
       </div>
       <!-- projetos -->
-      <div class="tab-pane fade" id="list-projetos" role="tabpanel" aria-labelledby="list-projetos-list">..</div>
+      <div class="tab-pane fade" id="list-projetos" role="tabpanel" aria-labelledby="list-projetos-list">
+        
+      </div>
       <!-- lita-tutores -->
       <div class="tab-pane fade" id="list-tutores" role="tabpanel" aria-labelledby="list-tutores-list">
-
-        <div class="accordion" id="accordionExample">
-          <!-- card-1 -->
-          <div class="card">
-
-            <div class="card-header" id="headingOne">
-              <h5 class="mb-0">
-                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                  Grupo de itens colapsável #1
-                </button>
-              </h5>
-            </div>
-        
-            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
-              <div class="card-body">
-                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non alemanha 0 x 2 coreia do sul cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-              </div>            
-            </div>
-
-          </div>
-          <!-- card-2 -->
-          <div class="card">
-
-            <div class="card-header" id="headingTwo">
-              <h5 class="mb-0">
-                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                  Grupo de itens colapsável #2
-                </button>
-              </h5>
-            </div>
-
-            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-              <div class="card-body">
-                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-              </div>
-            </div>
-
-          </div>
-          <!-- card-3 -->
-          <div class="card">
-            <div class="card-header" id="headingThree">
-              <h5 class="mb-0">
-                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                  Grupo de itens colapsável #3
-                </button>
-              </h5>
-            </div>
-            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-              <div class="card-body">
-                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="tab-pane fade" id="list-petianos" role="tabpanel" aria-labelledby="list-petianos-list">
         <table class="table table-hover">
           <thead>
             <tr>
@@ -111,6 +57,26 @@ title: História
                 <td>{{ tutor.nome }}</td>
                 <td>{{ tutor.data-inicio }}</td>
                 <td>{{ tutor.data-fim }}</td>
+              </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+      <div class="tab-pane fade" id="list-petianos" role="tabpanel" aria-labelledby="list-petianos-list">
+        <table class="table table-hover">
+          <thead>
+            <tr>
+              <th scope="col">Nome</th>
+              <th scope="col">Data-Início</th>
+              <th scope="col">Data-Fim</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for estudante in site.data.lista-petianos.estudantes %}
+              <tr>
+                <td>{{ estudante.nome }}</td>
+                <td>{{ estudante.data-inicio }}</td>
+                <td>{{ estudante.data-fim }}</td>
               </tr>
             {% endfor %}
           </tbody>
