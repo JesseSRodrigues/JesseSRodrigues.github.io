@@ -94,7 +94,22 @@ title: História
         </div>
       </div>
       <div class="tab-pane fade" id="list-petianos" role="tabpanel" aria-labelledby="list-petianos-list">
-        teste {{ site.data.lista-tutores.content }}
+        <table class="table table-hover">
+          <thead>
+            <tr>
+              <th scope="col">Nome</th>
+              <th scope="col">Data-Início</th>
+              <th scope="col">Data-Fim</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for tutor in site.data.lista-tutores.tutores %}
+              <tr>
+                <td>{{ tutor.nome }}</td>
+                <td>{{ tutor.data-inicio }}</td>
+                <td>{{ tutor.data-fim }}</td>
+              </tr>
+            {% endfor %}
       </div>
       <div class="tab-pane fade" id="list-eventos" role="tabpanel" aria-labelledby="list-eventos-list">...</div>
     </div>

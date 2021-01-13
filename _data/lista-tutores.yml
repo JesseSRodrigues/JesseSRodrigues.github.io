@@ -1,0 +1,10 @@
+
+tutores:
+
+  - nome: Prof. Dr. Álvaro Guarda
+    data-inicio:  1991
+    data-fim: 1993
+
+  - nome: Prof. Dr. Afonso Orth
+    data-inicio: 1993
+    data-fim: 1996
