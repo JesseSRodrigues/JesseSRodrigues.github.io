@@ -10,6 +10,9 @@ caption:
   thumbnail: https://raw.githubusercontent.com/JesseSRodrigues/JesseSRodrigues.github.io/master/assets/img/capa-enadeapp.png
 
 ---
+
+<p style="color: blue;">teste</p>
+
 O Exame Nacional de Desempenho dos Estudantes (Enade) é aplicado pelo INEP desde 2004, o objetivo é 
 avaliar o rendimento dos concluintes dos cursos de graduação em relação aos conteúdos programáticos 
 previstos nas diretrizes curriculares dos cursos, o desenvolvimento de competências e habilidades 
@@ -29,7 +32,7 @@ Os estudantes podem utilizar o aplicativo como uma competição de perguntas e r
 
 O ENADEApp está em fase de desenvolvimento para Android e IOS com as ferramentas/linguagens a seguir:
 
-      <ul align="left">
+      <ul>
 
           <li>Unity</li>
 
