@@ -23,4 +23,4 @@ Principais ferramentas/linguagens usadas na construção do site:
 * HTML
 * CSS
 
-Última atualização&#58 13/08/2020
+Última atualização: 13/08/2020

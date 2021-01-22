@@ -15,10 +15,10 @@ Inicialmente, o aplicativo deve funcionar como uma enciclopédia, organizando di
 
 Principais ferramentas/linguagens usadas na construção do BioView:
 
-* React Native
-* Node.js
-* HTML
-* CSS
-* Javascript
+  * React Native
+  * Node.js
+  * HTML
+  * CSS
+  * Javascript
 
-Última atualização&#58 13/08/2020
+Última atualização: 13/08/2020
