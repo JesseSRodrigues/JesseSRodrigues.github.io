@@ -22,11 +22,11 @@ services:
                 <li>Edital 2020/2 - Encerrado</li>
 
             </ul>
-        #button: Projetos
-        #buttonlink: "#portfolio" # "#{section}" or "URL/page link" 
+        button: Inscrever-se
+        buttonlink: "https://jessesrodrigues.github.io/selecao" # "#{section}" or "URL/page link" 
         icon: fas fa-users
     #button: Acesse Nosso Blog!
-    buttonlink: "https://jessesrodrigues.github.io/selecao" # "#{section}" or "URL/page link"
+    #buttonlink: "https://jessesrodrigues.github.io/selecao" # "#{section}" or "URL/page link"
   
 portfolio:
     title: "PET ACADEMY"
