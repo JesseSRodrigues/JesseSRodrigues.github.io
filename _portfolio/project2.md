@@ -32,6 +32,4 @@ text: <p align="justify">Como parte do projeto de divulgação do PET-Informáti
       </ul>
 
       <p align="right">Última atualização&#58 13/08/2020</p>
-      
-      <p align="center">Integrantes do PET-Inf no projeto:</p>
 ---

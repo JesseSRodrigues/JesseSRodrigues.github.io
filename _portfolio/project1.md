@@ -29,6 +29,4 @@ text: <p align="justify">O Campus da PUCRS é conhecido por sua arquitetura mode
       </ul>
 
       <p align="right">Última atualização&#58 13/08/2020</p>
-      
-      <p align="center">Integrantes do PET-Inf no projeto:</p>
 ---
