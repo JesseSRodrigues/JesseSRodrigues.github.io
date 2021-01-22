@@ -17,9 +17,7 @@ services:
             
             <ul>
 
-                <li>Edital 2020/1 - Encerrado</li>
-
-                <li>Edital 2020/2 - Encerrado</li>
+                <li>Edital 2021/1 - Em breve</li>
 
             </ul>
         button: Inscrever-se
@@ -120,4 +118,5 @@ footer:
 blog:
     title: "Blog do PET-Informática"
     section: blog
+
 # {{ site.data.sitetext.ex.ex | markdownify | default: example }}
