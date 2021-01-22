@@ -26,61 +26,12 @@ services:
         #buttonlink: "#portfolio" # "#{section}" or "URL/page link" 
         icon: fas fa-users
     #button: Acesse Nosso Blog!
-    #buttonlink: "https://jessesrodrigues.github.io/blog" # "#{section}" or "URL/page link"
+    buttonlink: "https://jessesrodrigues.github.io/selecao" # "#{section}" or "URL/page link"
   
 portfolio:
-    title: "Projetos"
+    title: "PET ACADEMY"
     text: "Veja os trabalhos em desenvolvimento!"
     section: portfolio
-
-timeline:
-    title: "História" 
-    text: "Projetos já realizados!"
-    section: timeline
-    events:
-      - title: "Criação do PET-Informática"
-        year: "Novembro 1991"
-        desc: "O PET-Inf foi criado na PUCRS ao final de 1991, tendo como primeiro tutor o professor Álvaro Guarda."
-        image: assets/img/timeline/1.jpg
-        alt: 
-        #align: left
-      - title: "Tutores do PET-Inf"
-        year: "1991 - 2020"
-        desc: "<ul>
-
-                <li>Prof. Dr. Álvaro Guarda: 1991-1993</li>
-
-                <li>Prof. Dr. Afonso Orth: 1993-1996</li>
-
-                <li>Prof. Dr. Fabiano Hessel: 2001-2002</li>
-
-                <li>Prof. Dr. Luís Lamb: 2002</li>
-
-                <li>Prof. Dr. Lúcia Giraffa: 2002-2005</li>
-
-                <li>Prof. Dr. Alfio Martini: 2005-2010</li>
-
-                <li>Prof. Dr. Celso Maciel: 2010-11 | 1996-2000</li>
-
-                <li>Prof. Dr. Tiago Ferreto: 2011 - Atual</li>
-
-            </ul> "
-        image: assets/img/timeline/2.jpg
-        alt: 
-        align: right
-      - title: "Jekyll Theme is created"
-        year: "2019"
-        desc: "Ravi Riley converted Agency, a Bootstrap-based theme, into a Jekyll theme. The Jekyll theme can be installed as a Ruby gem, or remotely. For more information, visit the documentation."
-        image: assets/img/timeline/3.jpg
-        alt: image alt text
-        #align: #default is left       
-      - title: "Title"
-        year: "2009-2011"
-        desc: "Your description here, **Markdown** is fully supported."
-        image: assets/img/timeline/4.jpg
-        alt: 
-        align: right
-    end: "Clique aqui</br> para saber mais!"
 
 clients:
     section: clients
@@ -100,7 +51,7 @@ team:
     #text: "Lorem ipsum dolor sit amet consectetur."
     #subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
     section: team
-    people2:
+    tutor:
       - name: "Prof. Dr. Tiago Ferreto"
         role: "Ph.D. em Ciência da Computação <br> Tutor"
         image: assets/img/team/TiagoF.png
@@ -109,23 +60,7 @@ team:
             icon: fab fa-github
           - url: https://linkedin.com
             icon: fab fa-linkedin-in
-    people:
-      - name: "Henrique Derlam"
-        role: "<b>Engenharia de Software</b> <br> Ingresso: 09/2020"
-        image: assets/img/team/HenriqueD.png
-        social:
-          - url: https://github.com/henrique-zw
-            icon: fab fa-github
-          - url: https://www.linkedin.com/in/henrique-derlam-952a941b5/
-            icon: fab fa-linkedin-in
-      - name: "Henrique Feijó"
-        role: "<b>Engenharia de Computação</b> <br> Ingresso: 09/2020"
-        image: assets/img/team/HenriqueF.png
-        social:
-          - url: https://github.com/thehenrik18 
-            icon: fab fa-github
-          - url: https://www.linkedin.com/in/henrique-feij%C3%B3-4245491b7
-            icon: fab fa-linkedin-in
+    petianos:
       - name: "Jessé Rodrigues"
         role: "<b>Engenharia de Computação</b> <br> Ingresso: 07/2020"
         image: assets/img/team/JesseR.jpg
@@ -142,14 +77,6 @@ team:
             icon: fab fa-github
           - url: https://www.linkedin.com/in/lucas-buffet-28b7061b4/
             icon: fab fa-linkedin-in
-      - name: "Luiz Otávio"
-        role: "<b>Sistemas de Informação</b> <br> Ingresso: 09/2020"
-        image: assets/img/team/LuizO.jpg
-        social:
-          - url: https://github.com/Wolxf2
-            icon: fab fa-github
-          - url: https://www.linkedin.com/in/luiz-ot%C3%A1vio-jirkowsky-e-silva-b114741b7/
-            icon: fab fa-linkedin-in
       - name: "Pedro Filippi"
         role: "<b>Engenharia de Computação</b> <br> Ingresso: 09/2020"
         image: assets/img/team/PedroF.png
@@ -157,14 +84,6 @@ team:
           - url: https://github.com/pedrofilippi
             icon: fab fa-github
           - url: https://www.linkedin.com/in/pedro-filippi-4584741b7/
-            icon: fab fa-linkedin-in
-      - name: "Pedro Rogoski"
-        role: "<b>Engenharia de Software</b> <br> Ingresso: 04/2020"
-        image: assets/img/team/PedroR.jpeg
-        social:
-          - url: https://github.com/Rogoski21
-            icon: fab fa-github
-          - url: https://www.linkedin.com/in/pedro-maia-rogoski-705119183/
             icon: fab fa-linkedin-in
       - name: "Rafael Shaker"
         role: "<b>Engenharia de Computação</b> <br> Ingresso: 09/2020"
