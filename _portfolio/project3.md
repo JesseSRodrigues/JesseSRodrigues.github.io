@@ -29,7 +29,7 @@ Os estudantes podem utilizar o aplicativo como uma competição de perguntas e r
 
 O ENADEApp está em fase de desenvolvimento para Android e IOS com as ferramentas/linguagens a seguir:
 
-* Unity
+*  Unity
 * SQL
 * C#
 * Figma
