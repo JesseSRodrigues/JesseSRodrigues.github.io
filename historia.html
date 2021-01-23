@@ -42,18 +42,18 @@ title: História
         <div class="row">
 	
           {% for projeto in site.projetos-antigos %}
-            <div class="col-md-4 col-sm-6 portfolio-item">
+            <div class="col-6 col-lg-4 evento">
               <a class="portfolio-link" target="_blank" href="{{ projeto.url }}">
                 <div class="portfolio-hover">
                   <div class="portfolio-hover-content">
                     <i class="fas fa-plus fa-3x"></i>
                   </div>
                 </div>
-                <img class="img-fluid" src="{{ projeto.thumbnail }}" alt="">
+                <img class="imagem-evento img-fluid" src="{{ projeto.thumbnail }}" alt="imagem-projeto">
               </a>
-              <div class="portfolio-caption">
-                <h4>{{ projeto.title }}</h4>
-                <p class="text-muted">{{ projeto.subtitle }}</p>
+              <div class="data-imagem-evento">
+                <p class="text-truncate">{{ projeto.title }}<p>
+                <p class="text-muted">{{ projeto.data }}</p>
               </div>
             </div>
           {% endfor %}
@@ -107,7 +107,7 @@ title: História
           
           {% for evento in site.data.lista-eventos.eventos %}
             <div class="col-6 col-lg-4 evento">
-              <img src="{{ evento.imagem }}" alt="imagem" class="imagem-evento img-fluid">
+              <img class="imagem-evento img-fluid" src="{{ evento.imagem }}" alt="imagem-evento">
               <div class="data-imagem-evento">
                 {% if evento.nome %}
                   <p class="text-truncate">{{ evento.nome }}</p>
