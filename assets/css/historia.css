@@ -7,3 +7,10 @@
     padding: 0 150px 0 150px;
   }
 }
+
+.imagem-evento {
+  width: 100%;
+  object-fit: cover;
+  height: 300px;
+  margin-bottom: 20px;
+}

@@ -101,7 +101,18 @@ title: História
           </tbody>
         </table>
       </div>
-      <div class="tab-pane fade" id="list-eventos" role="tabpanel" aria-labelledby="list-eventos-list">...</div>
+      <div class="tab-pane fade" id="list-eventos" role="tabpanel" aria-labelledby="list-eventos-list">
+
+        <div class="row">
+          
+          {% for evento in site.data.eventos %}
+            <div class="col">
+              <img src="{{ evento.imagem }}" alt="imagem" class="imagem-evento img-fluid">
+            </div>
+          {% endfor %}
+        </div>
+
+      </div>
     </div>
   </div>
 </div>

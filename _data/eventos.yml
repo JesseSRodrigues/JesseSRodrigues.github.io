@@ -1,0 +1,17 @@
+# novo evento:
+
+#  - legenda: 
+#    imagem: assets/img/eventos/
+
+
+eventos:
+  - legenda: imagem 1
+    imagem: assets/img/eventos/04-full.jpg
+  - legenda: imagem 2
+    imagem: assets/img/eventos/05-full.jpg
+  - legenda: logo PUCRS
+    imagem: assets/img/eventos/logo-PUCRS.png
+  - legenda: imagem 4
+    imagem: assets/img/eventos/06-full.jpg
+  - legenda: biblioteca
+    imagem: assets/img/eventos/biblioteca-header.jpg
