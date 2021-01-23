@@ -8,12 +8,12 @@
   }
 }
 
-.evento .projetos-link {
+.projetos-link {
   position: relative;
   display: block;
 }
 
-.evento .projetos-hover {
+.projetos-hover {
   position: absolute;
   top: 15px;
   width: 100%;
@@ -24,6 +24,10 @@
   opacity: 0;
   background: rgba(255, 255, 255, 0.4);  
 }
+
+.projetos-hover:hover {
+  opacity: 1;
+} 
 
 .evento .imagem-evento {
   width: 100%;
