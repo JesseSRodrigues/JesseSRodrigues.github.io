@@ -107,6 +107,11 @@ title: História
           
           {% for evento in site.data.lista-eventos.eventos %}
             <div class="col-6 col-lg-4 evento">
+              <div class="projetos-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fas fa-plus fa-3x"></i>
+                </div>
+              </div>
               <img class="imagem-evento img-fluid" src="{{ evento.imagem }}" alt="imagem-evento">
               <div class="data-imagem-evento">
                 {% if evento.nome %}
