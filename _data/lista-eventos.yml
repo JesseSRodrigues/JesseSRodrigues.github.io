@@ -4,23 +4,28 @@
 #    imagem: assets/img/eventos/
 
 
-evento:
-  - legenda: imagem 1
+eventos:
+  - evento: evento
     data: 23/01/2021
+    legenda: imagem 1
     imagem: assets/img/eventos/04-full.jpg
 
-  - legenda: imagem 2
+  - evento:
     data: 23/01/2021
+    legenda: imagem 2
     imagem: assets/img/eventos/05-full.jpg
 
-  - legenda: logo PUCRS
+  - evento: exemplo
     data: 20/10/2020
+    legenda: logo PUCRS
     imagem: assets/img/eventos/logo-PUCRS.png
 
-  - legenda: imagem 4
+  - evento:
     data: 15/06/2019
+    legenda: imagem 4
     imagem: assets/img/eventos/06-full.jpg
     
-  - legenda: biblioteca
+  - evento: exemplo
     data: 05/01/2019
+    legenda: biblioteca
     imagem: assets/img/eventos/biblioteca-header.jpg
