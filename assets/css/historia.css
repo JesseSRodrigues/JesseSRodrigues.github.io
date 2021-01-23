@@ -23,9 +23,6 @@
 }
 
 .evento .data-imagem-evento {
-  position: absolute;
-  bottom: 15%;
-  background: rgba(255, 255, 255, 0.7);
-  width: 93%;
+  background: #e9ecef;
   text-align: center;
 }
