@@ -107,12 +107,12 @@ title: História
           
           {% for evento in site.data.lista-eventos.eventos %}
             <div class="col-6 col-lg-4 evento">
-              <img src="{{ eventos.imagem }}" alt="imagem" class="imagem-evento img-fluid">
+              <img src="{{ evento.imagem }}" alt="imagem" class="imagem-evento img-fluid">
               <div class="data-imagem-evento">
-                {% if eventos.nome %}
-                  <p>{{ eventos.nome }}</p>
+                {% if evento.nome %}
+                  <p>{{ evento.nome }}</p>
                 {% endif %}
-                <p>{{ eventos.data }}</p>
+                <p>{{ evento.data }}</p>
               </div>
             </div>
           {% endfor %}
