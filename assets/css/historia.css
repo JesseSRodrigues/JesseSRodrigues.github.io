@@ -8,11 +8,16 @@
   }
 }
 
-.projetos-hover {
+.evento .projetos-link {
+  position: relative;
+  display: block;
+}
+
+.evento .projetos-hover {
   position: absolute;
-  width: 91%;
-  height: 85%;
-  top: 6%;
+  top: 15px;
+  width: 100%;
+  height: 93%;
   -webkit-transition: all ease 0.5s;
   -moz-transition: all ease 0.5s;
   transition: all ease 0.5s;
