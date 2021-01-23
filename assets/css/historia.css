@@ -47,10 +47,14 @@
   text-align: center;
   display: flex;
   justify-content: space-around;
-  font-size: small;
 }
+
+@media (max-width: 500px) {
+  .evento .data-imagem-evento {
+    font-size: small;
+  }
+} 
 
 .evento .data-imagem-evento p {
   margin-bottom: 0;
 }
-
