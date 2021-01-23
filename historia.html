@@ -43,8 +43,8 @@ title: História
 	
           {% for projeto in site.projetos-antigos %}
             <div class="col-6 col-lg-4 evento">
-              <a class="projetos-antigos-link" target="_blank" href="{{ projeto.url }}">
-                <div class="projetos-hover">
+              <a class="portfolio-link" target="_blank" href="{{ projeto.url }}">
+                <div class="portfolio-hover">
                   <div class="portfolio-hover-content">
                     <i class="fas fa-plus fa-3x"></i>
                   </div>
@@ -53,7 +53,7 @@ title: História
               </a>
               <div class="data-imagem-evento">
                 <p class="text-truncate">{{ projeto.title }}<p>
-                <p class="text-muted">{{ projeto.data }}</p>
+                <p>{{ projeto.data }}</p>
               </div>
             </div>
           {% endfor %}
