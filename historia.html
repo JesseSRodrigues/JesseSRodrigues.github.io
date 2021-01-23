@@ -114,13 +114,13 @@ title: História
                   </div>
                 </div>
                 <img class="imagem-evento img-fluid" src="{{ evento.imagem }}" alt="imagem-evento">
+              </a>
                 <div class="data-imagem-evento">
                   {% if evento.nome %}
                     <p class="text-truncate">{{ evento.nome }}</p>
                   {% endif %}
                   <p>{{ evento.data }}</p>
                 </div>
-              </a>
             </div>
           {% endfor %}
         </div>
