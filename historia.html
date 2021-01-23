@@ -107,18 +107,20 @@ title: História
           
           {% for evento in site.data.lista-eventos.eventos %}
             <div class="col-6 col-lg-4 evento">
-              <div class="projetos-hover">
-                <div class="portfolio-hover-content">
-                  <i class="fas fa-plus fa-3x"></i>
+              <a class="projetos-link" data-toggle="modal" href="#img{{ forloop.index }}">
+                <div class="projetos-hover">
+                  <div class="portfolio-hover-content">
+                    <i class="fas fa-plus fa-3x"></i>
+                  </div>
                 </div>
-              </div>
-              <img class="imagem-evento img-fluid" src="{{ evento.imagem }}" alt="imagem-evento">
-              <div class="data-imagem-evento">
-                {% if evento.nome %}
-                  <p class="text-truncate">{{ evento.nome }}</p>
-                {% endif %}
-                <p>{{ evento.data }}</p>
-              </div>
+                <img class="imagem-evento img-fluid" src="{{ evento.imagem }}" alt="imagem-evento">
+                <div class="data-imagem-evento">
+                  {% if evento.nome %}
+                    <p class="text-truncate">{{ evento.nome }}</p>
+                  {% endif %}
+                  <p>{{ evento.data }}</p>
+                </div>
+              </a>
             </div>
           {% endfor %}
         </div>
@@ -127,3 +129,5 @@ title: História
     </div>
   </div>
 </div>
+
+{% include modals.html %}
