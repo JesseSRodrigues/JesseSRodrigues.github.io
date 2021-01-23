@@ -7,7 +7,7 @@
 eventos:
   - nome: evento
     data: 23/01/2021
-    legenda: imagem 1
+    legenda: Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus animi sapiente excepturi quam, libero aliquam sed nesciunt. Dolorem nihil eius odio laborum reprehenderit? Iure, aspernatur inventore consectetur maxime ex a.
     imagem: assets/img/eventos/04-full.jpg
 
   - nome:
