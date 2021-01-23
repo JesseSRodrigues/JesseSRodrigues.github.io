@@ -4,7 +4,7 @@
 #    imagem: assets/img/eventos/
 
 
-eventos:
+evento:
   - legenda: imagem 1
     imagem: assets/img/eventos/04-full.jpg
   - legenda: imagem 2
