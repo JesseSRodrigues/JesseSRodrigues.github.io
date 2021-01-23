@@ -108,6 +108,7 @@ title: História
           {% for evento in site.data.eventos.evento %}
             <div class="col-6 col-lg-4 evento">
               <img src="{{ evento.imagem }}" alt="imagem" class="imagem-evento img-fluid">
+              <div class="data-imagem-evento">{{ evento.data }}</div>
             </div>
           {% endfor %}
         </div>
