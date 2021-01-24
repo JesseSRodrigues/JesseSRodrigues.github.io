@@ -9,9 +9,9 @@ autores:
 data: 07/2020
 
 caption:
-  - title: Site PET-Inf
-  - subtitle: Novo Site Oficial
-  - thumbnail: assets/img/capa-site.png
+  title: Site PET-Inf
+  subtitle: Novo Site Oficial
+  thumbnail: assets/img/capa-site.png
 
 ---
 Como parte do projeto de divulgação do PET-Informática, a criação do novo site também é um trabalho que envolve os integrantes do grupo, pois trabalha diversas ferramentas essenciais em diferentes profissões na área de tecnologia.
