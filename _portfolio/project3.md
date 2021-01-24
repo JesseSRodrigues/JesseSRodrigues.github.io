@@ -1,14 +1,19 @@
 ---
+layout: projetos
 title: ENADEApp
 subtitle: Aplicação para auxiliar estudantes na preparação do ENADE.
-image: https://raw.githubusercontent.com/JesseSRodrigues/JesseSRodrigues.github.io/master/assets/img/ENADE.png
-alt: 
+data: 07/2020
+autores:
+  - nome: Felipe Ferro
+  - nome: Lucas Buffet
+  - nome: Rafael Shaker
 
 caption:
   title: ENADEApp
   subtitle: Aplicação
-  thumbnail: https://raw.githubusercontent.com/JesseSRodrigues/JesseSRodrigues.github.io/master/assets/img/capa-enadeapp.png
+  thumbnail: assets/img/capa-enadeapp.png
 
+image: assets/img/ENADE.png
 ---
 O Exame Nacional de Desempenho dos Estudantes (Enade) é aplicado pelo INEP desde 2004, o objetivo é 
 avaliar o rendimento dos concluintes dos cursos de graduação em relação aos conteúdos programáticos 

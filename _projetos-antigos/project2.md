@@ -2,17 +2,17 @@
 layout: projetos
 title: Site PET-Inf
 subtitle: Novo site de divulgação dos projetos.
-image: https://raw.githubusercontent.com/JesseSRodrigues/JesseSRodrigues.github.io/master/assets/img/Tela_Site2.jpg
+data: 07/2020
 autores:
   - nome: Jessé Rodrigues
   - nome: Waldyr Schneider
-data: 07/2020
 
 caption:
   title: Site PET-Inf
   subtitle: Novo Site Oficial
   thumbnail: assets/img/capa-site.png
 
+image: assets/img/Tela_Site2.jpg
 ---
 Como parte do projeto de divulgação do PET-Informática, a criação do novo site também é um trabalho que envolve os integrantes do grupo, pois trabalha diversas ferramentas essenciais em diferentes profissões na área de tecnologia.
 
