@@ -52,7 +52,7 @@
 
 
 @media(min-width: 768px) {
-  .botao {
+  #botao {
     position: absolute;
     bottom: 25px;
     right: 0;
