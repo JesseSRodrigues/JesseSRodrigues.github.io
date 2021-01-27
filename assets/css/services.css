@@ -1,4 +1,8 @@
 
+.html {
+  scroll-behavior: smooth;
+}
+
 .posts-recentes {
   position: relative;
   display: flex;
