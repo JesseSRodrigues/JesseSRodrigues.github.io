@@ -3,3 +3,8 @@
   border-bottom: 0;
   cursor: pointer;
 }
+
+#botao-selecao {
+  margin: 20px 0 80px;
+  padding: 20px 70px;
+}
