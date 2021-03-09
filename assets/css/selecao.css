@@ -8,3 +8,7 @@
   margin: 20px 0 80px;
   padding: 20px 70px;
 }
+
+#header-selecao {
+  background-image: linear-gradient(to bottom right, #39d8a4, #3d78e1);
+}
