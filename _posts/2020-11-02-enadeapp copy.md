@@ -2,7 +2,7 @@
 layout: post
 title: GitHub e suas funcionalidades
 subtitle: Saiba como usar essa ferramenta para guardar e compartilhar seus projetos!
-tags: programação
+tags: programação pesquisa
 data: 28 Set, 2020
 thumbnail: https://raw.githubusercontent.com/JesseSRodrigues/JesseSRodrigues.github.io/master/assets/img/capa-enadeapp.png
 autores:

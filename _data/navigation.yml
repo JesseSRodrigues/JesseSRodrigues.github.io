@@ -13,7 +13,7 @@ nav:
     url: https://jessesrodrigues.github.io/historia
 
   - title: "Blog"
-    url: https://jessesrodrigues.github.io/blog
+    url: /blog
 
   - title: "Contato"
     section: contact

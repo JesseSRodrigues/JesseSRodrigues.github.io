@@ -1,6 +1,6 @@
 ---
 layout: post
-tag: pesquisa
+tag: artigo programação
 
 title: Como montar um blog?
 data: 03 Out, 2020
