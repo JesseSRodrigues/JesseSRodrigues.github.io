@@ -12,6 +12,11 @@
 
 .jblog {
   margin-top: 91px;
+  height: 380px;
+  background-image: url(/assets/img/blog/Blog.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .pagina-blog {
