@@ -13,10 +13,20 @@
 .jblog {
   margin-top: 91px;
   height: 380px;
-  background-image: url(/assets/img/blog/Blog.jpg);
+  background-image: url(assets/img/blog/Blog.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+
+.blog-text {
+  text-align: center; 
+  height: 100%;
+  padding-top: 65px;
+}
+
+.blog-text h1 {
+  margin-bottom: 1rem;
 }
 
 .pagina-blog {
