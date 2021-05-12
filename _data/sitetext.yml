@@ -77,7 +77,7 @@ team:
             icon: fab fa-linkedin-in
       - name: "Jessé Rodrigues"
         role: "<b>Engenharia de Computação</b> <br> Ingresso: 07/2020"
-        image: assets/img/team/JesseR.jpg
+        image: assets/img/team/JesseR.png
         social:
           - url: https://github.com/JesseSRodrigues
             icon: fab fa-github
@@ -85,7 +85,7 @@ team:
             icon: fab fa-linkedin-in
       - name: "João Boer"
         role: "<b>Engenharia de Computação</b> <br> Ingresso: 05/2021"
-        image: assets/img/team/
+        image: assets/img/team/JoaoB.jpg
         social:
           - url: https://github.com/JoaoVitorBoer
             icon: fab fa-github
@@ -109,7 +109,7 @@ team:
             icon: fab fa-linkedin-in
       - name: "Luiza Valentini"
         role: "<b>Engenharia de Software</b> <br> Ingresso: 05/2021"
-        image: assets/img/team/
+        image: assets/img/team/LuizaV.jpg
         social:
           - url: https://github.com/luizavalentini
             icon: fab fa-github
@@ -149,7 +149,7 @@ team:
             icon: fab fa-linkedin-in
       - name: "Waldyr Schneider"
         role: "<b>Ciência da Computação</b> <br> Ingresso: 04/2020"
-        image: assets/img/team/WaldyrS.jpeg
+        image: assets/img/team/WaldyrS.png
         social:
           - url: https://github.com/WaldyrSchneider
             icon: fab fa-github
